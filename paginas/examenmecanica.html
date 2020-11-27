@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilomecanica/mecanica.css">
+    <link rel="icon" href="../img/EN.jpeg" type="text/jpeg">
+    <script type="text/javascript" src="jsmecanica/mecanica.js"></script>
+    <title>Mecánica General</title>
+</head>
+<body>
+    <div id="envolturamecanica">
+        <header>
+            <h1>Examen teórico Mecanica general</h1>
+        </header>
+        <nav></nav>
+        <!--La caja respuesta permanece oculta asta que termine la prueba. -->
+        <div id="notaFinal">
+            <h3>La Nota es evaluada de 0 a 100</h3>
+            <span id="resultadoFinal"></span>
+        </div>
+        <div id="botones">
+            <button id="atras" class="borton"><strong><</strong></button>
+            <button id="adelante" class="borton"><strong>></strong></button><br><br>
+            <button id="resultado" class="borton">Nota</button>
+        </div>
+        <!--En preguntas se contienen las 44 preguntas de la categoria 1 y 2 (Motocicletas en las categorias 1 y 2)-->
+        <div id="preguntas">
+            <div id="pregunta1">
+                <h3>1. Uno de sus neumáticos traseros se revienta mientras usted conduce ¿Qué debe hacer usted?</h3>
+                <form name="Fpregunta1">
+                    <input type="radio" id="a1" value="a1" name="pregunt1" required>
+                    <label for="a1">a.	Poner marcha atrás para detener el vehículo.</label><br>
+                                        
+                    <input type="radio" id="b1" value="b1" name="pregunt1" required>
+                    <label for="b1">b.	Hacer una señal de detención con el brazo y disminuir la velocidad.</label><br>
+                    
+                    <input type="radio" id="c1" value="c1" name="pregunt1" required>
+                    <label for="c1">c.	Sujetar fuerte el timón y detenerse lentamente al costado de la vía.</label><br>
+
+                    <input type="radio" id="d1" value="d1" name="pregunt1" required>
+                    <label for="d1">d.	Ninguna de las anteriores.</label><br>
+                    
+                    <input type="radio" id="e1" value="e1" name="pregunt1" required>
+                    <label for="e1">e.	Todas las anteriores.</label><br>
+                </form>
+            </div>
+            <!--_______FIN DE UNA PREGUNTA_____-->
+            <div id="pregunta2">
+                <h3>2. ¿Qué debe usted hacer si se le revienta un neumático delantero?</h3>
+                <form name="Fpregunta2">
+                    <input type="radio" id="a2" value="a2" name="pregunt2">
+                    <label for="a2">a.	Cambiarse de pista y frenar a fondo.</label><br>
+
+                    <input type="radio" id="b2" value="b2" name="pregunt2">
+                    <label for="b2">b.	Hacer una señal de detención con el brazo y disminuir la velocidad.</label><br>
+
+                    <input type="radio" id="c2" value="c2" name="pregunt2">
+                    <label for="c2">c.	Frenar rápida y firmemente.</label><br>
+
+                    <input type="radio" id="d2" value="d2" name="pregunt2">
+                    <label for="d2">d.	Ninguno de los anteriores.</label><br>
+
+                    <input type="radio" id="e2" value="e2" name="pregunt2">
+                    <label for="e2">e.	Todas las anteriores.</label><br>
+                </form>
+            </div>
+            <!--_______FIN DE UNA PREGUNTA_____-->
+            <div id="pregunta3">
+                <h3>3. ¿Por qué incorrecto poner en neutro la transmisión del vehículo al ir circulando?</h3>
+                <form name="Fpregunta3">
+                    <input type="radio" id="a3" value="a3" name="pregunt3">
+                    <label for="a3">a.	Porque ello hace que el vehículo resbale.</label><br>
+
+                    <input type="radio" id="b3" value="b3" name="pregunt3">
+                    <label for="b3">b.	Porque el motor se detendrá.</label><br>
+
+                    <input type="radio" id="c3" value="b3" name="pregunt3">
+                    <label for="c3">c.	Porque no hay retención del motor.</label><br>
+
+                    <input type="radio" id="d3" value="d3" name="pregunt3">
+                    <label for="d3">d.	Ninguna de las anteriores.</label><br>
+
+                    <input type="radio" id="e3" value="e3" name="pregunt3">
+                    <label for="e3">e.	Todas las anteriores.</label><br>
+                </form>
+            </div>
+            <!--_______FIN DE UNA PREGUNTA_____-->
+            <div id="pregunta4">
+                    <h3>4. Principal razón por las cual no debe poner en neutro la transmisión del vehículo al ir cuesta abajo:</h3>
+                <form name="Fpregunta4">
+                    <input type="radio" id="a4" value="a4" name="pregunt4">
+                    <label for="a4">a.	Porque reduce su control sobre el vehículo.</label><br>
+
+                    <input type="radio" id="b4" value="b4" name="pregunt4">
+                    <label for="b4">b.	Porque el vehículo mantiene su velocidad.</label><br>
+
+                    <input type="radio" id="c4" value="c4" name="pregunt4">
+                    <label for="c4">c.	Porque el consumo de combustible será mayor</label><br>
+
+                    <input type="radio" id="d4" value="d4" name="pregunt3">
+                    <label for="d4">d.	Ninguna de las anteriores.</label><br>
+
+                    <input type="radio" id="e3" value="e4" name="pregunt3">
+                    <label for="e4">e.	Todas las anteriores.</label><br>
+                </form>
+            </div>
+            <!--_______FIN DE UNA PREGUNTA_____-->
+            <div id="pregunta5">
+                <h3>5. ¿Por qué usted no debería conducir presionando el pedal de embrague?</h3>
+                <form name="Fpregunta5">
+                    <input type="radio" id="a5" value="a5" name="pregunt5">
+                    <label for="a5">a.	Porque reduce su control sobre el vehículo.</label><br>
+                    
+                    <input type="radio" id="b5" value="b5" name="pregunt5">
+                    <label for="b5">b.	Porque aumenta el desgaste del disco de embrague o clouth.</label><br>
+
+                    <input type="radio" id="c5" value="c5" name="pregunt5">
+                    <label for="c5">c.	Porque aumenta el consumo de combustible.</label><br>
+
+                    <input type="radio" id="d5" value="d5" name="pregunt5">
+                    <label for="d5">d.	Ninguna de las anteriores.</label><br>
+
+                    <input type="radio" id="e5" value="e5" name="pregunt5">
+                    <label for="e5">e.	Todas las anteriores.</label><br>
+                </form>
+            </div>
+            <!--_______FIN DE UNA PREGUNTA_____-->
+            <div id="pregunta6">
+                <h3>6. Una baja presión de aire en los neumáticos delanteros provoca:</h3>
+                <form name="Fpregunta6">
+                    <input type="radio" id="a6" value="a6" name="pregunt6">
+                    <label for="a6">a.	Que el vehículo tienda a desviarse hacia un lado.</label><br>
+
+                    <input type="radio" id="b6" value="b6" name="pregunt6">
+                    <label for="b6">b.	Mejora el rendimiento del combustible.</label><br>
+
+                    <input type="radio" id="c6" value="c6" name="pregunt6">
+                    <label for="c6">c.	Genera mayor estabilidad en el desplazamiento.</label><br>
+
+                    <input type="radio" id="d6" value="d6" name="pregunt6">
+                    <label for="d6">d.	Ninguna de las anteriores.</label><br>
+
+                    <input type="radio" id="e6" value="e6" name="pregunt6">
+                    <label for="e6">e.	Todas las anteriores.</label><br>
+                </form>
+            </div>
+            <!--_______FIN DE UNA PREGUNTA_____-->
+            <div id="pregunta7">
+                <h3>7. En época lluviosa, ¿influye el estado de los neumáticos en la distancia de frenado de su vehículo?</h3>
+            <form name="Fpregunta7">
+                <input type="radio" id="a7" value="a7" name="pregunt7">
+                <label for="a7">a.	No, la distancia de frenado depende sólo de la velocidad.</label><br>
+
+                <input type="radio" id="b7" value="b7" name="pregunt7">
+                <label for="b7">b.	Sí, porque el mayor o menor desgaste de los neumáticos, entre otros factores, determinará que dicha distancia sea mayor o menor.</label><br>
+
+                <input type="radio" id="c7" value="c7" name="pregunt7">
+                <label for="c7">c.	No, porque una vez que se acciona el freno la distancia de frenado ees siempre la misma para cada vehículo.</label><br>
+
+                <input type="radio" id="d7" value="d7" name="pregunt7">
+                <label for="d7">d.	Ninguna de las anteriores.</label><br>
+
+                <input type="radio" id="e7" value="e7" name="pregunt7">
+                <label for="e7">e.	Todas las anteriores.</label><br>
+            </form>
+            </div>
+            <!--_______FIN DE UNA PREGUNTA_____-->
+            <div id="pregunta8">
+                <h3>8. ¿Qué provocan los gases que emanan del escape?</h3>
+                <form name="Fpregunta8">
+                    <input type="radio" id="a8" value="a8" name="pregunt8">
+                    <label for="a8">a.	No penetra monóxido de carbono al interior del vehículo.</label><br>
+
+                    <input type="radio" id="b8" value="b8" name="pregunt8">
+                    <label for="b8">b.	La emisión de gases de los vehículos no tienen regulación legal alguna.</label><br>
+
+                    <input type="radio" id="c8" value="c8" name="pregunt8">
+                    <label for="c8">c.	Contamina el medio ambiente.</label><br>
+
+                    <input type="radio" id="d8" value="d8" name="pregunt8">
+                    <label for="d8">d.	Ninguna de las anteriores.</label><br>
+
+                    <input type="radio" id="e8" value="e8" name="pregunt8">
+                    <label for="e8">e.	Todas las anteriores.</label><br>
+                </form>
+            </div>
+            <!--_______FIN DE UNA PREGUNTA_____-->
+            <div id="pregunta9">
+                <h3>9. Un desgaste notorio de la zona central de las bandas de rodamiento de los neumáticos indica:</h3>
+                <form name="Fpregunta9">
+                    <input type="radio" id="a9" value="a9" name="pregunt9">
+                    <label for="a9">a.	Que éstos se han usado con muy poco aire.</label><br>
+
+                    <input type="radio" id="b9" value="b9" name="pregunt9">
+                    <label for="b9">b.	Que estos se han usado con aire excesivo.</label><br>
+
+                    <input type="radio" id="c9" value="c9" name="pregunt9">
+                    <label for="c9">c.	No hay relación con el nivel de presión de aire que use.</label><br>
+
+                    <input type="radio" id="d9" value="d9" name="pregunt9">
+                    <label for="d9">d.	Ninguna de las anteriores.</label><br>
+
+                    <input type="radio" id="e9" value="e9" name="pregunt9">
+                    <label for="e9">e.	Todas las anteriores.</label><br>
+                </form>
+            </div>
+            <!--_______FIN DE UNA PREGUNTA_____-->
+            <div id="pregunta10">
+                <h3>10. un desgaste irregular de los neumáticos puede deberse a:</h3>
+                <form name="Fpregunta10">
+                    <input type="radio" id="a10" value="a10" name="pregunt10">
+                    <label for="a10">a.	Exceso de presión de aire en los neumáticos.</label><br>
+
+                    <input type="radio" id="b10" value="b10" name="pregunt10">
+                    <label for="b10">b.	Problemas de alineamiento.</label><br>
+
+                    <input type="radio" id="c10" value="c10" name="pregunt10">
+                    <label for="c10">c.	Problemas de amortiguación. </label><br>
+
+                    <input type="radio" id="d10" value="d10" name="pregunt10">
+                    <label for="d10">d.	Ninguna de las anteriores.</label><br>
+
+                    <input type="radio" id="e10" value="e10" name="pregunt10">
+                    <label for="e10">e.	Todas las anteriores.</label><br>
+                </form>
+            </div>
+            <!--_______FIN DE UNA PREGUNTA_____-->
+            <div id="pregunta11">
+                <h3>11. El uso del cinturón de seguridad:</h3>
+                <form name="Fpregunta11">
+                    <input type="radio" id="a11" value="a11" name="pregunt11">
+                    <label for="a11">a.	Disminuye las posibilidades de sufrir lesiones en un accidente.</label><br>
+
+                    <input type="radio" id="b11" value="b11" name="pregunt11">
+                    <label for="b11">b.	Son más eficientes los air-bags (Bolsas de aire).</label><br>
+
+                    <input type="radio" id="c11" value="c11" name="pregunt11">
+                    <label for="c11">c.	Para quienes viajan en el asiento trasero de un automóvil el cinturón de seguridad no les presta utilidad. </label><br>
+
+                    <input type="radio" id="d11" value="d11" name="pregunt11">
+                    <label for="d11">d.	Ninguna de las anteriores.</label><br>
+
+                    <input type="radio" id="e11" value="e11" name="pregunt11">
+                    <label for="e11">e.	Todas las anteriores.</label><br>
+                </form>
+            </div>
+            <!--_______FIN DE UNA PREGUNTA_____-->
+            <div id="pregunta12">
+                <h3>12. ¿Dónde debemos llevar a los niños en el vehículo?</h3>
+                <form name="Fpregunta12">
+                    <input type="radio" id="a12" value="a12" name="pregunt12">
+                    <label for="a12">a.	No es seguro que un adulto lleve a un niño pequeño incluyéndolo en su cinturón de seguridad.</label><br>
+
+                    <input type="radio" id="b12" value="b12" name="pregunt12">
+                    <label for="b12">b.	Silla especial en el asiento trasero sujetada con el cinturón de seguridad.</label><br>
+
+                    <input type="radio" id="c12" value="c12" name="pregunt12">
+                    <label for="c12">c.	Para quienes viajan en el asiento trasero el cinturón de seguridad no brinda mayor seguridad.</label><br>
+
+                    <input type="radio" id="d12" value="d12" name="pregunt12">
+                    <label for="d12">d.	Ninguna de las anteriores.</label><br>
+
+                    <input type="radio" id="e12" value="e12" name="pregunt12">
+                    <label for="e12">e.	Todas las anteriores.</label><br>
+                </form>
+            </div>
+            <!--_______FIN DE UNA PREGUNTA_____-->
+            <div id="pregunta13">
+                <h3>13. ¿Qué elementos de su vehículo debe usted mantener limpios?</h3>
+                <form name="Fpregunta13">
+                    <input type="radio" id="a13" value="a13" name="pregunt13">
+                    <label for="a13">a.	Las luces.</label><br>
+
+                    <input type="radio" id="b13" value="b13" name="pregunt13">
+                    <label for="b13">b.	Los espejos.</label><br>
+
+                    <input type="radio" id="c13" value="c13" name="pregunt13">
+                    <label for="c13">c.	Los vidrios.</label><br>
+
+                    <input type="radio" id="d13" value="d13" name="pregunt13">
+                    <label for="d13">d.	Ninguna de las anteriores.</label><br>
+
+                    <input type="radio" id="e13" value="e13" name="pregunt13">
+                    <label for="e13">e.	Todas las anteriores.</label><br>
+                </form>
+            </div>
+            <!--_______FIN DE UNA PREGUNTA_____-->
+            <div id="pregunta14">
+                <h3>14. ¿Cuándo se debe revisar la presión de los neumáticos?</h3>
+                <form name="Fpregunta14">
+                    <input type="radio" id="a14" value="a14" name="pregunt14">
+                    <label for="a14">a.	Después de un viaje largo.</label><br>
+
+                    <input type="radio" id="b14" value="b14" name="pregunt14">
+                    <label for="b14">b.	Cuando la dirección gira a un lado.</label><br>
+
+                    <input type="radio" id="c14" value="c14" name="pregunt14">
+                    <label for="c14">c.	Antes de emprender el viaje.</label><br>
+
+                    <input type="radio" id="d14" value="d14" name="pregunt14">
+                    <label for="d14">d.	Ninguna de las anteriores.</label><br>
+
+                    <input type="radio" id="e14" value="e14" name="pregunt14">
+                    <label for="e14">e.	Todas las anteriores.</label><br>
+                </form>
+            </div>
+            <!--_______FIN DE UNA PREGUNTA_____-->
+            <div id="pregunta15">
+                <h3>15. ¿Cuál de estos líquidos, en el caso de estar en un nivel bajo, podría causar un accidente?</h3>
+                <form name="Fpregunta15">
+                    <input type="radio" id="a15" value="a15" name="pregunt15">
+                    <label for="a15">a.	El líquido de freno.</label><br>
+
+                    <input type="radio" id="b15" value="b15" name="pregunt15">
+                    <label for="b15">b.	El agua de la batería.</label><br>
+
+                    <input type="radio" id="c15" value="c15" name="pregunt15">
+                    <label for="c15">c.	El líquido refrigerante.</label><br>
+
+                    <input type="radio" id="d15" value="d15" name="pregunt15">
+                    <label for="d15">d.	Ninguna de las anteriores.</label><br>
+
+                    <input type="radio" id="e15" value="e15" name="pregunt15">
+                    <label for="e15">e.	Todas las anteriores.</label><br>
+                </form>
+            </div>
+            <!--_______FIN DE UNA PREGUNTA_____-->
+            <div id="pregunta16">
+                <h3>16. ¿Cuál es la forma más segura de frenar?</h3>
+                <form name="Fpregunta16">
+                    <input type="radio" id="a16" value="a16" name="pregunt16">
+                    <label for="a16">a.	Frenando fuerte, poniendo la palanca de cambio en neutro y tirando el freno de mano junto antes de detenerse.</label><br>
+
+                    <input type="radio" id="b16" value="b16" name="pregunt16">
+                    <label for="b16">b.	Frenando suavemente, hasta detener el vehículo.</label><br>
+
+                    <input type="radio" id="c16" value="c16" name="pregunt16">
+                    <label for="c16">c.	Poniendo la palanca de cambio en neutro, frenando fuerte y luego soltando el freno justo antes de detenerse.</label><br>
+
+                    <input type="radio" id="d16" value="d16" name="pregunt16">
+                    <label for="d16">d.	Ninguna de las anteriores.</label><br>
+
+                    <input type="radio" id="e16" value="e16" name="pregunt16">
+                    <label for="e16">e.	Todas las anteriores.</label><br>
+                </form>
+            </div>
+            <!--_______FIN DE UNA PREGUNTA_____-->
+            <div id="pregunta17">
+                <h3>17. ¿Cuándo usa usted las luces intermitentes de parqueo de advertencia de peligro?</h3>
+                <form name="Fpregunta17">
+                    <input type="radio" id="a17" value="a17" name="pregunt17">
+                    <label for="a17">a.	Cuando esté obstruyendo el tránsito.</label><br>
+
+                    <input type="radio" id="b17" value="b17" name="pregunt17">
+                    <label for="b17">b.	Cuando se estacione en doble fila, respecto a otro vehículo estacionado junto a la cuneta.</label><br>
+
+                    <input type="radio" id="c17" value="c17" name="pregunt17">
+                    <label for="c17">c.	Poniendo la palanca de cambio en neutro, frenando fuerte y luego soltando el freno justo antes de detenerse.</label><br>
+
+                    <input type="radio" id="d17" value="d17" name="pregunt17">
+                    <label for="d17">d.	Ninguna de las anteriores.</label><br>
+
+                    <input type="radio" id="e17" value="e17" name="pregunt17">
+                    <label for="e17">e.	Todas las anteriores.</label><br>
+                </form>
+            </div>
+            <!--_______FIN DE UNA PREGUNTA_____-->
+            <div id="pregunta18">
+                <h3>18. Cuando se encuentra mal estado la suspensión de su vehículo.</h3>
+                <form name="Fpregunta18">
+                    <input type="radio" id="a18" value="a18" name="pregunt18">
+                    <label for="a18">a.	Neumáticos gastados.</label><br>
+
+                    <input type="radio" id="b18" value="b18" name="pregunt18">
+                    <label for="b18">b.	Neumáticos poco inflados.</label><br>
+
+                    <input type="radio" id="c18" value="c18" name="pregunt18">
+                    <label for="c18">c.	Amortiguadores gastados.</label><br>
+
+                    <input type="radio" id="d18" value="d18" name="pregunt18">
+                    <label for="d18">d.	Ninguna de las anteriores.</label><br>
+
+                    <input type="radio" id="e18" value="e18" name="pregunt18">
+                    <label for="e18">e.	Todas las anteriores.</label><br>
+                </form>
+            </div>
+            <!--_______FIN DE UNA PREGUNTA_____-->
+            <div id="pregunta19">
+                <h3>19. ¿Por qué los neumáticos deben mantenerse a la presión indicada?</h3>
+                <form name="Fpregunta19">
+                    <input type="radio" id="a19" value="a19" name="pregunt19">
+                    <label for="a19">a.	Para que el vehículo se mantenga a la altura correcta sobre la vía.</label><br>
+
+                    <input type="radio" id="b19" value="b19" name="pregunt19">
+                    <label for="b19">b.	Para mantener la estabilidad de la dirección.</label><br>
+
+                    <input type="radio" id="c19" value="c19" name="pregunt19">
+                    <label for="c19">c.	Para evitar que el automóvil se incline hacia un lado.</label><br>
+
+                    <input type="radio" id="d19" value="d19" name="pregunt19">
+                    <label for="d19">d.	Ninguna de las anteriores.</label><br>
+
+                    <input type="radio" id="e19" value="e19" name="pregunt19">
+                    <label for="e19">e.	Todas las anteriores.</label><br>
+                </form>
+            </div>
+            <!--_______FIN DE UNA PREGUNTA_____-->
+            <div id="pregunta20">
+                <h3>20. ¿A qué se debe un alto consumo de combustible?</h3>
+                <form name="Fpregunta20">
+                    <input type="radio" id="a20" value="a20" name="pregunt20">
+                    <label for="a20">a.	Fallas en el sistema de dirección.</label><br>
+
+                    <input type="radio" id="b20" value="b20" name="pregunt20">
+                    <label for="b20">b.	Aceleraciones en curvas.</label><br>
+
+                    <input type="radio" id="c20" value="c20" name="pregunt20">
+                    <label for="c20">c.	Frecuentes frenadas y aceleraciones.</label><br>
+
+                    <input type="radio" id="d20" value="d20" name="pregunt20">
+                    <label for="d20">d.	Ninguna de las anteriores.</label><br>
+
+                    <input type="radio" id="e20" value="e20" name="pregunt20">
+                    <label for="e20">e.	Todas las anteriores.</label><br>
+                </form>
+            </div>
+            <!--_______FIN DE UNA PREGUNTA_____-->    
+        </div><!--******FIN DE LAS PREGUNTAS*********-->
+        <!--Se muestran los botones para desplazarce entre las 40 preguntas y para evaluar el examen-->
+        <div id="anuncios"></div>
+        <aside></aside>
+        <footer></footer>
+    </div>
+</body>
+</html>

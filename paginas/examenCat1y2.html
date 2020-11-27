@@ -1,0 +1,702 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estiloscat1y2/style.css">
+    <link rel="icon" href="../img/EN.jpeg" type="text/jpeg">
+    <script type="text/javascript" src="javascriptcat1y2/examencat1y2.js"></script>
+    <title>Categoria 1 y 2</title>
+</head>
+<body>
+    <div id="envolturacat1y2">
+        <header>
+            <h1>Examen teórico de categoría 1 y 2</h1>
+        </header>
+        <nav></nav>
+        <!--La caja respuesta permanece oculta asta que termine la prueba. -->
+        <div id="notaFinal">
+            <h3>La Nota es evaluada de 0 a 100</h3>
+            <span id="resultadoFinal"></span>
+        </div>
+         <!--Se muestran los botones para desplazarce entre las 40 preguntas y para evaluar el examen-->
+         <div id="botones">
+            <button id="atras" class="borton"><strong><</strong></button>
+            <button id="adelante" class="borton"><strong>></strong></button><br><br>
+            <button id="resultado" class="borton">Nota</button>
+        </div>
+        <!--En preguntas se contienen las 44 preguntas de la categoria 1 y 2 (Motocicletas en las categorias 1 y 2)-->
+        <div id="preguntas">
+            <div id="pregunta1">
+                <h3>1¿Cuáles de estos elementos de seguridad activa son exigidos en la motocicleta?</h3>
+                <form name="Fpregunta1">
+                    <input type="radio" id="a1" value="a1" name="pregunt1" required>
+                    <label for="a1">a.	Sistemas de frenos, llantas, espejos, dirección y suspensión.</label><br>
+                                        
+                    <input type="radio" id="b1" value="b1" name="pregunt1" required>
+                    <label for="b1">b.	Luces, tricos, enfriamiento.</label><br>
+                    
+                    <input type="radio" id="c1" value="c1" name="pregunt1" required>
+                    <label for="c1">c.	Triángulos y extinguidor.</label><br>
+                </form>
+            </div>
+            <!--_______FIN DE UNA PREGUNTA_____-->
+            <div id="pregunta2">
+                <h3>2¿Qué revisa un buen conductor de una motocicleta diariamente?</h3>
+                <form name="Fpregunta2">
+                    <input type="radio" id="a2" value="a2" name="pregunt2">
+                    <label for="a2">a.	Estado de las llantas, freno delantero y trasero, presión de aire.</label><br>
+
+                    <input type="radio" id="b2" value="b2" name="pregunt2">
+                    <label for="b2">b.	Ajustes de espejo retrovisores, fuga de aceite o gasolina, cadena y estado del sproquer.</label><br>
+
+                    <input type="radio" id="c2" value="c2" name="pregunt2">
+                    <label for="c2">c.	Frenos, luces delanteras altas y bajas, pide vías luces laterales.</label><br>
+
+                    <input type="radio" id="d2" value="d2" name="pregunt2">
+                    <label for="d2">d.	Todas las anteriores.</label><br>
+
+                    <input type="radio" id="e2" value="e2" name="pregunt2">
+                    <label for="e2">e.	Ninguna de las anteriores.</label><br>
+                </form>
+            </div>
+            <!--_______FIN DE UNA PREGUNTA_____-->
+            <div id="pregunta3">
+                <h3>3¿De qué forma se realiza un viaje seguro en una motocicleta?</h3>
+                <form name="Fpregunta3">
+                    <input type="radio" id="a3" value="a3" name="pregunt3">
+                    <label for="a3">a.	Realizando un chequeo minucioso antes del viaje a su vehículo.</label><br>
+
+                    <input type="radio" id="b3" value="b3" name="pregunt3">
+                    <label for="b3">b.	Acatando las leyes y normas de tránsito.</label><br>
+
+                    <input type="radio" id="c3" value="b3" name="pregunt3">
+                    <label for="c3">c.	Planificando su ruta de antemano, evitando las maniobras imprudentes.</label><br>
+
+                    <input type="radio" id="d3" value="d3" name="pregunt3">
+                    <label for="d3">d.	Todas las anteriores.</label><br>
+
+                    <input type="radio" id="e3" value="e3" name="pregunt3">
+                    <label for="e3">e.	Ninguna de las anteriores.</label><br>
+                </form>
+            </div>
+            <!--_______FIN DE UNA PREGUNTA_____-->
+            <div id="pregunta4">
+                    <h3>4¿Cuál es la distancia de seguridad que usted debe llevar para evitar colisionar, con un vehículo que circula adelante?</h3>
+                <form name="Fpregunta4">
+                    <input type="radio" id="a4" value="a4" name="pregunt4">
+                    <label for="a4">a.	Aplica la regla o método de dos segundos.</label><br>
+
+                    <input type="radio" id="b4" value="b4" name="pregunt4">
+                    <label for="b4">b.	5 metros por cada diez kilómetros por hora</label><br>
+
+                    <input type="radio" id="c4" value="c4" name="pregunt4">
+                    <label for="c4">c.	10 metros por cada diez kilómetros por hora</label><br>
+                </form>
+            </div>
+            <!--_______FIN DE UNA PREGUNTA_____-->
+            <div id="pregunta5">
+                <h3>5¿Qué considera usted que es el punto ciego?</h3>
+                <form name="Fpregunta5">
+                    <input type="radio" id="a5" value="a5" name="pregunt5">
+                    <label for="a5">a.	Los espacios no cubiertos por los espejos retrovisores.</label><br>
+                    
+                    <input type="radio" id="b5" value="b5" name="pregunt5">
+                    <label for="b5">b.	Vehículos que circulan al lado.</label><br>
+
+                    <input type="radio" id="c5" value="c5" name="pregunt5">
+                    <label for="c5">c.	Al vehículo que dejamos de ver por la distancia. </label><br>
+                </form>
+            </div>
+            <!--_______FIN DE UNA PREGUNTA_____-->
+            <div id="pregunta6">
+                <h3>6¿Qué debe hacer cuando es deslumbrado por luces altas de otro vehículo en sentido contrario?</h3>
+            <form name="Fpregunta6">
+                <input type="radio" id="a6" value="a6" name="pregunt6">
+                <label for="a6">a.	Continuar la marcha.</label><br>
+
+                <input type="radio" id="b6" value="b6" name="pregunt6">
+                <label for="b6">b.	Reducir la velocidad y ver la línea blanca del borde, detenerse a la orilla mientras recupera la visión.</label><br>
+
+                <input type="radio" id="c6" value="c6" name="pregunt6">
+                <label for="c6">c.	Aumentar la velocidad para salir rápido de la situación.</label><br>
+            </form>
+            </div>
+            <!--_______FIN DE UNA PREGUNTA_____-->
+            <div id="pregunta7">
+                <h3>7¿Qué debe hacer si va conduciendo en moto y su celular repica?</h3>
+            <form name="Fpregunta7">
+                <input type="radio" id="a7" value="a7" name="pregunt7">
+                <label for="a7">a.	Detener la marcha, orillarse a contestar y terminada la llamada continuar su circulación. </label><br>
+
+                <input type="radio" id="b7" value="b7" name="pregunt7">
+                <label for="b7">b.	Contestar con los auriculares instalados al teléfono y continuar circulando.</label><br>
+
+                <input type="radio" id="c7" value="c7" name="pregunt7">
+                <label for="c7">c.	Contestar con una mano y bajar la velocidad.</label><br>
+            </form>
+            </div>
+            <!--_______FIN DE UNA PREGUNTA_____-->
+            <div id="pregunta8">
+                <h3>8¿Debe usted saltar el manubrio a una mano cuando conduce una motocicleta?</h3>
+            <form name="Fpregunta8">
+                <input type="radio" id="a8" value="a8" name="pregunt8">
+                <label for="a8">a.	Es correcto cuando la vía está  despejada.</label><br>
+
+                <input type="radio" id="b8" value="b8" name="pregunt8">
+                <label for="b8">b.	Va depender de mis destrezas.</label><br>
+
+                <input type="radio" id="c8" value="c8" name="pregunt8">
+                <label for="c8">c.	No debo hacerlo, porque puedo perder el control.</label><br>
+            </form>
+            </div>
+            <!--_______FIN DE UNA PREGUNTA_____-->
+            <div id="pregunta9">
+                <h3>9¿Cómo debe hacer uso de los frenos para evitar caerse, cuando conduce a alta velocidad en la moto?</h3>
+            <form name="Fpregunta9">
+                <input type="radio" id="a9" value="a9" name="pregunt9">
+                <label for="a9">a.	Uso el freno delantero suavemente e inmediatamente uso el freno trasero gradualmente.</label><br>
+
+                <input type="radio" id="b9" value="b9" name="pregunt9">
+                <label for="b9">b.	Frenar a tope con los dos frenos al mismo tiempo para detenerme.</label><br>
+
+                <input type="radio" id="c9" value="c9" name="pregunt9">
+                <label for="c9">c.	Frenar solo con el freno trasero para no caerme.</label><br>
+            </form>
+            </div>
+            <!--_______FIN DE UNA PREGUNTA_____-->
+            <div id="pregunta10">
+                <h3>10¿Cómo garantizo ver y ser visto cuando conduces la motocicleta?</h3>
+                <form name="Fpregunta10">
+                    <input type="radio" id="a10" value="a10" name="pregunt10">
+                    <label for="a10">a.	Circulando por mi derecha.</label><br>
+
+                    <input type="radio" id="b10" value="b10" name="pregunt10">
+                    <label for="b10">b.	Hago uso de la bocina y circulo con luz baja encendida.</label><br>
+
+                    <input type="radio" id="c10" value="c10" name="pregunt10">
+                    <label for="c10">c.	Circulando cercano a la línea blanca del centro.</label><br>
+                </form>
+            </div>
+            <!--_______FIN DE UNA PREGUNTA_____-->
+            <div id="pregunta11">
+                <h3>11¿Qué elementos principales incluyen el estado mecánico de la motocicleta?</h3>
+                <form name="Fpregunta11">
+                    <input type="radio" id="a11" value="a11" name="pregunt11">
+                    <label for="a11">a.	Cables, manecillas, espejos, cadena, barras y manubrio, amortiguadores.</label><br>
+
+                    <input type="radio" id="b11" value="b11" name="pregunt11">
+                    <label for="b11">b.	Luces, cadena, tensión de los rayos, llantas en buen estado.</label><br>
+
+                    <input type="radio" id="c11" value="c11" name="pregunt11">
+                    <label for="c11">c.	Freno delantero y trasero, descansos de los pies y apoyos de la moto.</label><br>
+
+                    <input type="radio" id="d11" value="d11" name="pregunt11">
+                    <label for="d11">d.	Todas las anteriores.</label><br>
+
+                    <input type="radio" id="e11" value="e11" name="pregunt11">
+                    <label for="e11">e.	Ninguna de las anteriores.</label><br>
+                </form>
+            </div>
+            <!--_______FIN DE UNA PREGUNTA_____-->
+            <div id="pregunta12">
+                <h3>12¿Cuál de estos elementos son indispensables para el motorizado?</h3>
+                <form name="Fpregunta12">
+                    <input type="radio" id="a12" value="a12" name="pregunt12">
+                    <label for="a12">a.	Botas, guantes, pantalón grueso., casco con visera.</label><br>
+
+                    <input type="radio" id="b12" value="b12" name="pregunt12">
+                    <label for="b12">b.	Rodilleras, manos libres, bocina.</label><br>
+
+                    <input type="radio" id="c12" value="c12" name="pregunt12">
+                    <label for="c12">c.	Mochila, mangas para el sol.</label><br>
+                </form>
+            </div>
+            <!--_______FIN DE UNA PREGUNTA_____-->
+            <div id="pregunta13">
+                <h3>13¿Cuál debe de ser la postura del cuerpo al conducir la moto?</h3>
+                <form name="Fpregunta13">
+                    <input type="radio" id="a13" value="a13" name="pregunt13">
+                    <label for="a13">a.	No hay una postura determinada, que me sienta bien es todo.</label><br>
+
+                    <input type="radio" id="b13" value="b13" name="pregunt13">
+                    <label for="b13">b.	Basta que alcance los pedales y mandos.</label><br>
+
+                    <input type="radio" id="c13" value="c13" name="pregunt13">
+                    <label for="c13">c.	Cuerpo relajado, manos y brazos al alcance de las manecillas, pies bien colocados en los estribos.</label><br>
+                </form>
+            </div>
+            <!--_______FIN DE UNA PREGUNTA_____-->
+            <div id="pregunta14">
+                <h3>14¿Cuál es el método para tomar una curva hacia la izquierda en motocicleta?</h3>
+                <form name="Fpregunta14">
+                    <input type="radio" id="a14" value="a14" name="pregunt14">
+                    <label for="a14">a.	Hacerse al centro de la carretera, entrar al centro del carril y acelerar.</label><br>
+
+                    <input type="radio" id="b14" value="b14" name="pregunt14">
+                    <label for="b14">b.	Bajar velocidad, cargarse hacia la derecha, ver al centro del carril y acelerar al abandonar la curva.</label><br>
+
+                    <input type="radio" id="c14" value="c14" name="pregunt14">
+                    <label for="c14">c.	Mantenerse todo el tiempo pegado a la derecha de la curva.</label><br>
+                </form>
+            </div>
+            <!--_______FIN DE UNA PREGUNTA_____-->
+            <div id="pregunta15">
+                <h3>15¿Cuál de los dos ocupantes de la motocicleta va menos expuesto?</h3>
+                <form name="Fpregunta15">
+                    <input type="radio" id="a15" value="a15" name="pregunt15">
+                    <label for="a15">a.	Ambos están igual de expuestos por eso deben de usar los mismos dispositivos de seguridad.</label><br>
+
+                    <input type="radio" id="b15" value="b15" name="pregunt15">
+                    <label for="b15">b.	El pasajero por que el conductor se puede aferrar al manubrio de la moto.</label><br>
+
+                    <input type="radio" id="c15" value="c15" name="pregunt15">
+                    <label for="c15">c.	Solamente los niños muy pequeños están expuestos.</label><br>
+                </form>
+            </div>
+            <!--_______FIN DE UNA PREGUNTA_____-->
+            <div id="pregunta16">
+                <h3>16¿Cuántos pasajeros están permitidos en una motocicleta?</h3>
+                <form name="Fpregunta16">
+                    <input type="radio" id="a16" value="a16" name="pregunt16">
+                    <label for="a16">a.	Solamente uno.</label><br>
+
+                    <input type="radio" id="b16" value="b16" name="pregunt16">
+                    <label for="b16">b.	Solamente uno y debe de ser mayor de 8 años.</label><br>
+
+                    <input type="radio" id="c16" value="c16" name="pregunt16">
+                    <label for="c16">c.	Pueden ir dos pasajeros, siempre que el otro sea un niño.</label><br>
+
+                </form>
+            </div>
+            <!--_______FIN DE UNA PREGUNTA_____-->
+            <div id="pregunta17">
+                <h3>17¿Qué se debe de hacer cuando conducimos motos en superficies mojadas o húmedas?</h3>
+                <form name="Fpregunta17">
+                    <input type="radio" id="a17" value="a17" name="pregunt17">
+                    <label for="a17">a.	Reducir la velocidad, aplicar los cambios intermedios y si toca frenar hacerlo muy suavemente.</label><br>
+
+                    <input type="radio" id="b17" value="b17" name="pregunt17">
+                    <label for="b17">b.	Frenar solamente con el freno trasero y con cambios bajos.</label><br>
+
+                    <input type="radio" id="c17" value="c17" name="pregunt17">
+                    <label for="c17">c.	Va depender de la llantas ya que siempre dependerá de los frenos.</label><br>
+
+                </form>
+            </div>
+            <!--_______FIN DE UNA PREGUNTA_____-->
+            <div id="pregunta18">
+                <h3>18¿Qué medidas de seguridad debo adoptar para conducir de noche en motocicleta?</h3>
+                <form name="Fpregunta18">
+                    <input type="radio" id="a18" value="a18" name="pregunt18">
+                    <label for="a18">a.	Asegurarme que anda en buen estado la luz alta.</label><br>
+
+                    <input type="radio" id="b18" value="b18" name="pregunt18">
+                    <label for="b18">b.	Sistema de luces completo, ropa clara, y circular a velocidades moderadas.</label><br>
+
+                    <input type="radio" id="c18" value="c18" name="pregunt18">
+                    <label for="c18">c.	Usar siempre solamente el carril derecho para que me vean.</label><br>
+                </form>
+            </div>
+            <!--_______FIN DE UNA PREGUNTA_____-->
+            <div id="pregunta19">
+                <h3>19¿Por qué no es seguro que el casco de seguridad no tenga sujetador de barbilla?</h3>
+                <form name="Fpregunta19">
+                    <input type="radio" id="a19" value="a19" name="pregunt19">
+                    <label for="a19">a.	El viento y la velocidad me lo puede quitar de improvisto.</label><br>
+
+                    <input type="radio" id="b19" value="b19" name="pregunt19">
+                    <label for="b19">b.	Porque en un impacto el casco de seguridad se cae y quedo expuesto a lesiones.</label><br>
+
+                    <input type="radio" id="c19" value="c19" name="pregunt19">
+                    <label for="c19">c.	Porque el agente está autorizado a multarme si no lo abrocho.</label><br>
+                </form>
+            </div>
+            <!--_______FIN DE UNA PREGUNTA_____-->
+            <div id="pregunta20">
+                <h3>20¿Por dónde debe circular siempre la motocicleta?</h3>
+                <form name="Fpregunta20">
+                    <input type="radio" id="a20" value="a20" name="pregunt20">
+                    <label for="a20">a.	Por  la banda derecha y al centro del carril.</label><br>
+
+                    <input type="radio" id="b20" value="b20" name="pregunt20">
+                    <label for="b20">b.	Es seguro en cualquier carril.</label><br>
+
+                    <input type="radio" id="c20" value="c20" name="pregunt20">
+                    <label for="c20">c.	En medio de los carriles para avanzar más rápido.</label><br>
+
+                </form>
+            </div>
+            <!--_______FIN DE UNA PREGUNTA_____-->
+            <div id="pregunta21">
+                <h3>21¿Por dónde debe aventajar El conductor de una motocicleta?</h3>
+                <form name="Fpregunta21">
+                    <input type="radio" id="a21" value="a21" name="pregunt21">
+                    <label for="a21">a.	Solamente por el carril derecho.</label><br>
+
+                    <input type="radio" id="b21" value="b21" name="pregunt21">
+                    <label for="b21">b.	Por el carril izquierdo.</label><br>
+
+                    <input type="radio" id="c21" value="c21" name="pregunt21">
+                    <label for="c21">c.	En el arcén de la carretera.</label><br>
+                </form>
+            </div>
+            <!--_______FIN DE UNA PREGUNTA_____-->
+            <div id="pregunta22">
+                <h3>22¿Qué dispositivo de seguridad exige la ley al conductor y acompañante de una motocicleta?</h3>
+                <form name="Fpregunta22">
+                    <input type="radio" id="a22" value="a22" name="pregunt22">
+                    <label for="a22">a.	Casco en su cabeza abrochado él y su acompañante.</label><br>
+
+                    <input type="radio" id="b22" value="b22" name="pregunt22">
+                    <label for="b22">b.	Solo debe usarlo él y no su pasero.</label><br>
+
+                    <input type="radio" id="c22" value="c22" name="pregunt22">
+                    <label for="c22">c.	Cinturón de seguridad para ambos.</label><br>
+
+                </form>
+            </div>
+            <!--_______FIN DE UNA PREGUNTA_____-->
+            <div id="pregunta23">
+                <h3>23¿Qué reglas básicas de convivencia debe cumplir el motorizado por seguridad de él y tranquilidad de su familia?</h3>
+                <form name="Fpregunta23">
+                    <input type="radio" id="a23" value="a23" name="pregunt23">
+                    <label for="a23">a.	Respetar las señales de tránsito, no conducir en embriaguez, en exceso de velocidad.</label><br>
+
+                    <input type="radio" id="b23" value="b23" name="pregunt23">
+                    <label for="b23">b.	Manejar con cortesía, no invadir carril, evitar las maniobras imprudentes.</label><br>
+
+                    <input type="radio" id="c23" value="c23" name="pregunt23">
+                    <label for="c23">c.	Manejar con responsabilidad. Llevar solamente un pasajero.</label><br>
+
+                    <input type="radio" id="d23" value="d23" name="pregunt23">
+                    <label for="d23">d.	Todas las anteriores.</label><br>
+
+                    <input type="radio" id="e23" value="e23" name="pregunt23">
+                    <label for="e23">e.	Ninguna de las anteriores.</label><br>
+                </form>
+            </div>
+            <!--_______FIN DE UNA PREGUNTA_____-->
+            <div id="pregunta24">
+                <h3>24¿Qué método defensivo debe aplicar el conductor de una motocicleta para evitar los accidentes de tránsito?</h3>   
+                <form name="Fpregunta24">
+                    <input type="radio" id="a24" value="a24" name="pregunt24">
+                    <label for="a24">a.	Reconocer el peligro, entender la defensa y actuar a tiempo.</label><br>
+
+                    <input type="radio" id="b24" value="b24" name="pregunt24">
+                    <label for="b24">b.	Aplicar sus habilidades de motorizado y chequear su vehículo.</label><br>
+
+                    <input type="radio" id="c24" value="c24" name="pregunt24">
+                    <label for="c24">c.	Ser responsable y cortes.</label><br>
+
+                </form>
+            </div>
+            <!--_______FIN DE UNA PREGUNTA_____-->
+            <div id="pregunta25">
+                <h3>25¿En qué lugares la ley prohíbe adelantar y el motociclista debe cumplir?</h3>
+                <form name="Fpregunta25">
+                    <input type="radio" id="a25" value="a25" name="pregunt25">
+                    <label for="a25">a.	En curvas, en puentes, en pendientes y en rotondas.</label><br>
+
+                    <input type="radio" id="b25" value="b25" name="pregunt25">
+                    <label for="b25">b.	En intersecciones y líneas continuas.</label><br>
+
+                    <input type="radio" id="c25" value="c25" name="pregunt25">
+                    <label for="c25">c.	Donde las señales de tránsito lo indiquen. </label><br>
+
+                    <input type="radio" id="d25" value="d25" name="pregunt25">
+                    <label for="d25">d.	Todas las anteriores.</label><br>
+
+                    <input type="radio" id="e25" value="e25" name="pregunt25">
+                    <label for="e25">e.	Ninguna de las anteriores.</label><br>
+                </form>
+            </div>
+            <!--_______FIN DE UNA PREGUNTA_____-->
+            <div id="pregunta26">
+                <h3>26¿En qué maniobra un conductor pierde la preferencia de paso frente al otro conductor?</h3>
+            <form name="Fpregunta26">
+                <input type="radio" id="a26" value="a26" name="pregunt26">
+                <label for="a26">a.	Cuando gire a la derecha.</label><br>
+
+                <input type="radio" id="b26" value="b26" name="pregunt26">
+                <label for="b26">b.	Cuando gire a la izquierda.</label><br>
+
+                <input type="radio" id="c26" value="c26" name="pregunt26">
+                <label for="c26">c.	Cuando aventaja por la derecha.</label><br>
+            </form>
+            </div>
+            <!--_______FIN DE UNA PREGUNTA_____-->
+            <div id="pregunta27">
+                <h3>27¿Comó sabe un conductor de motocicleta que tiene la preferencia de paso?</h3>
+                <form name="Fpregunta27">
+                    <input type="radio" id="a27" value="a27" name="pregunt27">
+                    <label for="a27">a.	Cuando el agente de tránsito y el semáforo lo indique.</label><br>
+
+                    <input type="radio" id="b27" value="b27" name="pregunt27">
+                    <label for="b27">b.	Cuando gire a la izquierda.</label><br>
+
+                    <input type="radio" id="c27" value="c27" name="pregunt27">
+                    <label for="c27">c.	Cuando aventaja por la derecha.</label><br>
+                </form>
+            </div>
+            <!--_______FIN DE UNA PREGUNTA_____-->
+            <div id="pregunta28">
+                <h3>28¿Qué debe de hacer si está encendida la luz verde y antes de llegar a la intersección se le proyecta la luz amarilla?</h3>
+                <form name="Fpregunta28">
+                    <input type="radio" id="a28" value="a28" name="pregunt28">
+                    <label for="a28">a.	Debo acelerar para pasar.</label><br>
+
+                    <input type="radio" id="b28" value="b28" name="pregunt28">
+                    <label for="b28">b.	Reducir la velocidad y detenerme para no pasar en luz roja el semáforo.</label><br>
+
+                    <input type="radio" id="c28" value="c28" name="pregunt28">
+                    <label for="c28">c.	Pasar con precaución.</label><br>
+                </form>
+            </div>
+            <!--_______FIN DE UNA PREGUNTA_____-->
+            <div id="pregunta29">
+                <h3>29¿Cuándo es correcto circular entre medio de los vehículos que están detenidos?</h3>
+                <form name="Fpregunta29">
+                    <input type="radio" id="a29" value="a29" name="pregunt29">
+                    <label for="a29">a.	Si es correcta para avanzar.</label><br>
+
+                    <input type="radio" id="b29" value="b29" name="pregunt29">
+                    <label for="b29">b.	No es correcto hacerlo.</label><br>
+
+                    <input type="radio" id="c29" value="c29" name="pregunt29">
+                    <label for="c29">c.	La vía es ancha y me permite hacer la maniobra.</label><br>
+                </form>
+            </div>
+            <!--_______FIN DE UNA PREGUNTA_____-->
+            <div id="pregunta30">
+                <h3>30¿Qué espacio del carril debe ocupar la motocicleta al circular?</h3>
+                <form name="Fpregunta30">
+                    <input type="radio" id="a30" value="a30" name="pregunt30">
+                    <label for="a30">a.	Pegado a la derecha.</label><br>
+
+                    <input type="radio" id="b30" value="b30" name="pregunt30">
+                    <label for="b30">b.	Pegado a la izquierda.</label><br>
+
+                    <input type="radio" id="c30" value="c30" name="pregunt30">
+                    <label for="c30">c.	Al centro del carril.</label><br>
+                </form>
+            </div>
+            <!--_______FIN DE UNA PREGUNTA_____-->
+            <div id="pregunta31">
+                <h3>31¿En qué periodo se tienen que pagar las multas impuestas por infracción?</h3>
+                <form name="Fpregunta31">
+                    <input type="radio" id="a31" value="a31" name="pregunt31">
+                    <label for="a31">a.	30 días a partir de la imposición de la multa o 60 días con prorroga.  </label><br>
+
+                    <input type="radio" id="b31" value="b31" name="pregunt31">
+                    <label for="b31">b.	45 días.</label><br>
+
+                    <input type="radio" id="c31" value="c31" name="pregunt31">
+                    <label for="c31">c.	90 días.</label><br>
+                </form>
+            </div>
+            <!--_______FIN DE UNA PREGUNTA_____-->
+            <div id="pregunta32">
+                <h3>32¿A quién le corresponde la prevención de la ocurrencia de los accidentes de tránsito?</h3>
+                <form name="Fpregunta32">
+                    <input type="radio" id="a32" value="a32" name="pregunt32">
+                    <label for="a32">a.	La policía Nacional.</label><br>
+
+                    <input type="radio" id="b32" value="b32" name="pregunt32">
+                    <label for="b32">b.	Al estado de Nicaragua.</label><br>
+
+                    <input type="radio" id="c32" value="c32" name="pregunt32">
+                    <label for="c32">c.	Es un problema social y nos corresponde a todos atenderlo.</label><br>
+
+                    <input type="radio" id="d32" value="d32" name="pregunt32">
+                    <label for="d32">d.	Todas las anteriores.</label><br>
+
+                    <input type="radio" id="e32" value="e32" name="pregunt32">
+                    <label for="e32">e.	Ninguna de las anteriores.</label><br>
+
+                </form>
+            </div>
+            <!--_______FIN DE UNA PREGUNTA_____-->
+            <div id="pregunta33">
+                <h3>33¿Cuál es la forma correcta de tomar una curva a la derecha?</h3>
+                <form name="Fpregunta33">
+                    <input type="radio" id="a33" value="a33" name="pregunt33">
+                    <label for="a33">a.	Pegarme a la derecha, bajar velocidad y acelerar a la salida de la curva.</label><br>
+
+                    <input type="radio" id="b33" value="b33" name="pregunt33">
+                    <label for="b33">b.	Bajar velocidad, cargarme al centro de la vía y romper hacia el centro de la salida de la curva.</label><br>
+
+                    <input type="radio" id="c33" value="c33" name="pregunt33">
+                    <label for="c33">c.	Quedarme en el centro del carril todo el tiempo y acelerar a la salida.</label><br>
+                </form>
+            </div>
+            <!--_______FIN DE UNA PREGUNTA_____-->
+            <div id="pregunta34">
+                <h3>34¿Puede el motorizado conducir una cuadra en sentido contrario?</h3>
+            <form name="Fpregunta34">
+                <input type="radio" id="a34" value="a34" name="pregunt34">
+                <label for="a34">a.	No, nunca se conduce un automotor contra la vía.</label><br>
+
+                <input type="radio" id="b34" value="b34" name="pregunt34">
+                <label for="b34">b.	Si, eventualmente se puede.</label><br>
+
+                <input type="radio" id="c34" value="c34" name="pregunt34">
+                <label for="c34">c.	Solamente en casos de emergencia.</label><br>
+            </form>
+            </div>
+            <!--_______FIN DE UNA PREGUNTA_____-->
+            <div id="pregunta35">
+                <h3>35¿Qué reglas debe hacer el motorizado en un sitio sin señales?</h3>
+                <form name="Fpregunta35">
+                    <input type="radio" id="a35" value="a35" name="pregunt35">
+                    <label for="a35">a.	Por su maniobrabilidad se le permite girar un U.</label><br>
+
+                    <input type="radio" id="b35" value="b35" name="pregunt35">
+                    <label for="b35">b.	Ninguna regla especial, debe seguir las mismas reglas de todos.</label><br>
+
+                    <input type="radio" id="c35" value="c35" name="pregunt35">
+                    <label for="c35">c.	Solo en las rotondas se le permite cambiar de carril.</label><br>
+                </form>
+            </div>
+            <!--_______FIN DE UNA PREGUNTA_____-->
+            <div id="pregunta36">
+                <h3>36¿Qué debe hacer el motorizado en un sitio sin señales?</h3>
+                <form name="Fpregunta36">
+                    <input type="radio" id="a36" value="a36" name="pregunt36">
+                    <label for="a36">a.	Lo mismo que la ley señala para los conductores de vehículos de cuatro ruedas.</label><br>
+
+                    <input type="radio" id="b36" value="b36" name="pregunt36">
+                    <label for="b36">b.	Aprovechar la destreza y pasar primero.</label><br>
+
+                    <input type="radio" id="c36" value="c36" name="pregunt36">
+                    <label for="c36">c.	Esperar a que todos pasen y después tomar el turno.</label><br>
+                </form>
+            </div>
+            <!--_______FIN DE UNA PREGUNTA_____-->
+            <div id="pregunta37">
+                <h3>37¿Comó se debe incorporar el motorizado a la circulación?</h3>
+                <form name="Fpregunta37">
+                    <input type="radio" id="a37" value="a37" name="pregunt37">
+                    <label for="a37">a.	Debe seguir el paso a paso del artículo 95.</label><br>
+
+                    <input type="radio" id="b37" value="b37" name="pregunt37">
+                    <label for="b37">b.	Puede entrar a pesar de que circulen otros vehículos siempre que sea seguro.</label><br>
+
+                    <input type="radio" id="c37" value="c37" name="pregunt37">
+                    <label for="c37">c.	Depende de la pericia del motorizado.</label><br>
+                </form>
+            </div>
+            <!--_______FIN DE UNA PREGUNTA_____-->
+            <div id="pregunta38">
+                <h3>38¿Está permitido a los motociclistas circular en paralelo?</h3>
+                <form name="Fpregunta38">
+                    <input type="radio" id="a38" value="a38" name="pregunt38">
+                    <label for="a38">a.	Si, de esa manera el tráfico es más fluido.</label><br>
+
+                    <input type="radio" id="b38" value="b38" name="pregunt38">
+                    <label for="b38">b.	No puede, todos los automotores deben circular uno a la vez en el carril.</label><br>
+
+                    <input type="radio" id="c38" value="c38" name="pregunt38">
+                    <label for="c38">c.	No puede por que obstruyen la circulación. </label><br>
+                </form>
+            </div>
+            <!--_______FIN DE UNA PREGUNTA_____-->
+            <div id="pregunta39">
+                <h3>39¿Por qué debe realizar señales manuales el motorizado?</h3>
+                <form name="Fpregunta39">
+                    <input type="radio" id="a39" value="a39" name="pregunt39">
+                    <label for="a39">a.	Basta con las luces direccionales de la motocicleta.</label><br>
+
+                    <input type="radio" id="b39" value="b39" name="pregunt39">
+                    <label for="b39">b.	De esa forma se garantiza que los otros conductores sepan que maniobra va a realizar.</label><br>
+
+                    <input type="radio" id="c39" value="c39" name="pregunt39">
+                    <label for="c39">c.	Debe hacer las señales de brazo solo cuando alguien viene detrás de él.</label><br>
+                </form>
+            </div>
+            <!--_______FIN DE UNA PREGUNTA_____-->
+            <div id="pregunta40">
+                <h3>40¿Qué debe hacer el motorizado cuando llueve?</h3>
+                <form name="Fpregunta40">
+                    <input type="radio" id="a40" value="a40" name="pregunt40">
+                    <label for="a40">a.	Ponerse la chaqueta, bajar la visera del casco, encender las luces y continuar.</label><br>
+
+                    <input type="radio" id="b40" value="b40" name="pregunt40">
+                    <label for="b40">b.	Parar la marcha y buscar un lugar seguro para acampar la lluvia.</label><br>
+
+                    <input type="radio" id="c40" value="c40" name="pregunt40">
+                    <label for="c40">c.	Solamente que sea de noche debe detenerse.</label><br>
+                </form>
+            </div>
+            <!--_______FIN DE UNA PREGUNTA_____-->     
+            <div id="pregunta41">
+                <h3>41¿Qué debo de hacer al circular en moto para cambiar de carril?</h3>
+                <form name="Fpregunta41">
+                    <input type="radio" id="a41" value="a41" name="pregunt41">
+                    <label for="a41">a.	Aprovechar la velocidad y capacidad de maniobra para entrar rápido.</label><br>
+
+                    <input type="radio" id="b41" value="b41" name="pregunt41">
+                    <label for="b41">b.	Señalizar, ver por el espejo y entrar rápido.</label><br>
+
+                    <input type="radio" id="c41" value="c41" name="pregunt41">
+                    <label for="c41">c.	Señalizar, calcular velocidad y distancia y respetar la prioridad de carril.</label><br>
+                </form>
+            </div>
+            <!--_______FIN DE UNA PREGUNTA_____-->     
+            <div id="pregunta42">
+                <h3>42¿Cómo debe de ser la maniobra de aventajar en la motocicleta?</h3>
+                <form name="Fpregunta42">
+                    <input type="radio" id="a42" value="a42" name="pregunt42">
+                    <label for="a42">a.	Hay reglas especiales que le permiten hacerlo a su manera.</label><br>
+
+                    <input type="radio" id="b42" value="b42" name="pregunt42">
+                    <label for="b42">b.	Siempre que se pueda deberá hacerlo por la derecha, para eso es moto.</label><br>
+
+                    <input type="radio" id="c42" value="c42" name="pregunt42">
+                    <label for="c42">c.	Por la izquierda, que no viole la ley o la señal, siguiendo los pasos como cualquier otro vehículo</label><br>
+                </form>
+            </div>
+            <!--_______FIN DE UNA PREGUNTA_____-->     
+            <div id="pregunta43">
+                <h3>43¿Por qué no se debe adelantar en el mismo carril a otro motociclista?</h3>
+                <form name="Fpregunta43">
+                    <input type="radio" id="a43" value="a43" name="pregunt43">
+                    <label for="a43">a.	Está prohibido por la ley, para eso hay una metodología.</label><br>
+
+                    <input type="radio" id="b43" value="b43" name="pregunt43">
+                    <label for="b43">b.	 Es peligroso porque puede sorprender al otro conductor y ocasionar una colisión.</label><br>
+
+                    <input type="radio" id="c43" value="c43" name="pregunt43">
+                    <label for="c43">c.	Es una conducta irresponsable y altamente peligrosa.</label><br>
+
+                    <input type="radio" id="d43" value="d43" name="pregunt43">
+                    <label for="d43">d.	Todas las anteriores.</label><br>
+
+                    <input type="radio" id="e43" value="e43" name="pregunt43">
+                    <label for="e43">e.	Ninguna de las anteriores.</label><br>
+
+                </form>
+            </div>
+            <!--_______FIN DE UNA PREGUNTA_____-->     
+            <div id="pregunta44">
+                <h3>44¿Por qué el motorizado no puede adelantar en intersección?</h3>
+                <form name="Fpregunta44">
+                    <input type="radio" id="a44" value="a44" name="pregunt44">
+                    <label for="a44">a.	Ningún vehículo debe adelantar en intersecciones, la ley lo prohíbe.</label><br>
+
+                    <input type="radio" id="b44" value="b44" name="pregunt44">
+                    <label for="b44">b.	Los motorizados pueden por ser más rápidos.</label><br>
+
+                    <input type="radio" id="c44" value="c44" name="pregunt44">
+                    <label for="c44">c.	Si la moto ocupa menos espacio no hay problema.</label><br>
+                </form>
+            </div>
+            <!--_______FIN DE UNA PREGUNTA_____-->     
+        </div><!--******FIN DE LAS PREGUNTAS*********-->
+       
+        <div id="anuncios"></div>
+        <aside></aside>
+        <footer></footer>
+    </div>
+</body>
+</html>

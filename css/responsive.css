@@ -1,0 +1,89 @@
+@media (max-width:1250px)
+{
+    #contenedor
+    {
+        width: 100%;
+        margin: 0px auto;
+    }
+
+    .card1
+    {
+        margin: 30px 5px 5px 5px;
+    }
+}
+
+@media (max-width:1150px)
+{
+    #imagenPrin h1
+    {
+        width: 50%;
+    }
+
+    #imagenPrin h2
+    {
+        width: 50%;
+    }
+    .card1
+    {
+        margin: 30px 35px 5px 35px;
+    }
+    .footercolum
+    {
+        width: 100%;
+        float: none;
+    }
+}
+@media (max-width:740px)
+{
+    #imagenPrin h1
+    {
+        width: 90%;
+    }
+
+    #imagenPrin h2
+    {
+        width: 90%;
+    }
+    #logoimg
+   {
+       width: 44px;
+   }
+    #videoexplicativo
+   {
+       width: 100%;
+   }
+   #video1
+   {
+       width: 100%;
+   }
+   
+}
+@media (max-width:390px)
+{
+    #imagenPrin h1
+   {
+    font-size: 19px;
+   }
+   #logoimg
+   {
+       width: 44px;
+   }
+   #videoexplicativo
+   {
+       width: 100%;
+   }
+   #video1
+   {
+       width: 100%;
+   }
+   footer
+   {
+       width: 100%;
+   }
+
+   #descripcion
+   {
+       width: 100%;
+       margin-left: 0px;
+   }
+}

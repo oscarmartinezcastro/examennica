@@ -1,0 +1,424 @@
+/*FUENTES*/
+@font-face
+{
+    font-family: "TrebuchetMS";
+    src: url(fonts/TrebuchetMS.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face
+{
+    font-family: "BebasNeue";
+    src: url(fonts/BebasNeue.otf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face
+{
+    font-family: "WebSymbolsRegular";
+    src: url('fonts/websymbols-regular-webfont.eot');
+    src: url('fonts/websymbols-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/websymbols-regular-webfont.woff') format('woff'),
+         url('fonts/websymbols-regular-webfont.ttf')  format('ttf'),
+         url('fonts/websymbols-regular-webfont.svg#WebSymbolsRegular')  format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+/*ESTILOS GENERALES*/
+*
+{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+/*parte del cuerpo de la pagina*/
+body
+{
+    background-color: none;
+}
+
+#contenedor
+{
+    width: 100%;
+    margin: 0px auto;
+    margin: 0px;
+    padding: 0px;
+    background: url("../img/manejando.png") no-repeat center center fixed;/*../img/manejando.png*/
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+/*Trabajo el menú*/
+#menu
+{
+    display: block;
+    border: 1px solid #ccc;
+    width: 100%;
+    height: 110px;
+    text-align: center;
+    background:#f1e26ddf;/*:#EFDD51;*/
+    position: static;
+    z-index: auto;
+}
+
+/*Header*/
+#header
+{
+    width: 100%;
+    min-height: 10px;
+    background-color: black;
+    font-family: "BebasNeue";
+    color: white;
+}
+
+/*Logotipo*/
+#ancla
+{
+    text-decoration: none;
+}
+
+#logoimg
+{
+    float: left;
+    width: 4%;
+    height: 4%;
+    margin: 15px;
+    box-shadow: 6px 6px 2px gray;
+}
+
+#menu
+{
+    width: 100%;
+    min-height: 70px;
+}
+
+#menu ul
+{
+    list-style: none;
+    height: 70px;
+    background: transparent;
+}
+#menu ul li
+{
+    float: left;
+    font-size: 22px;
+    line-height: 100px;
+    transition: all 300ms;
+}
+
+#menu ul li a
+{
+    text-decoration: none;
+    text-align: center;
+    font-family: "BebasNeue";
+    font-size: 28px;
+    padding: 10px;
+    color: white;
+    transition: all 300ms;
+}
+#menu ul li a:hover
+{
+    color: #37bcf9;
+    font-size: 35px;
+}
+.card1
+{
+    display: block;
+    float: left;
+    margin: 30px 20px 0px 50px;
+    min-height: 500px;
+}
+.cardImg
+{
+    position: relative;
+    overflow: hidden;/*se oculta lo que sale del cuadro logo*/
+    transition: transform 1s;    
+}
+.animado
+{
+    opacity: 0;
+    transition: all 500ms;
+}
+
+.mostrarArriba
+{
+    animation: mostrarArriba 1s;
+}
+
+@keyframes mostrarArriba
+{
+    0%
+    {
+        transform: translateY(100px);
+    }
+    100%
+    {
+        transform: translateY(0);
+    }
+}
+
+.cardImg:hover .hover{
+    transform: translate(0);
+}
+.cardImg img{
+    width: 100%;
+    height: 100%;
+    vertical-align: top;
+    transition: transform 1s;
+}
+.cardImg:hover img
+{
+    transform: scale(1.3);
+}
+.hover{
+    position: absolute;
+    bottom: 0;
+    background: rgba(0, 123, 255, 0.6);
+    color: #fff;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding: 20px 0;
+    transform: translate(100%,100%) rotate(180deg);
+    transition: transform 1s;
+}
+.letra3
+{
+    line-height: 250px;
+    font-size: 25px;
+    font-weight: bold;
+}
+/*Limpio los floatntes*/
+.clearfix
+{
+    float: none;
+    clear: both;
+}
+/*Imagen grande*/
+#imagenPrin
+{
+    width: 100%;
+    min-height: 300px;
+    background-color: #ccc;
+    background: url("../img/manejando.png") no-repeat center center fixed;/*../img/manejando.png*/
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+}
+#imagenPrin h1
+{
+    display: block;
+    background: url('../img/pxgray.png'), white;
+    height: 50px;
+    width: 35%;
+    letter-spacing: 3px;
+    text-align: center;
+    font-family: "BebasNeue";
+    font-size: 35px;
+    line-height: 55px;
+    color: blue;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    margin-top: 0px;
+    margin-left: 15px;
+    text-shadow: 4px 2px 2px gray;
+    box-shadow: 2px 2px 2px gray;
+}
+
+#imagenPrin h2
+{
+    display: block;
+    background: url('../img/pxgray.png'), white;
+    height: 50px;
+    width: 35%;
+    letter-spacing: 3px;
+    text-align: center;
+    font-family: "BebasNeue";
+    font-size: 35px;
+    line-height: 55px;
+    color: blue;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    margin-top: 20px;
+    margin-left: 15px;
+    text-shadow: 4px 2px 2px gray;
+    box-shadow: 2px 2px 2px gray;
+}
+
+#imagenPrin #redesSociales
+{
+    display: block;
+    background: url('../img/pxgray.png'), white;
+    width: 190px;
+    height: 70px;
+    color: blue;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    margin-top: 20px;
+    margin-left: 120px;
+    margin-right: 15px;
+    box-shadow: 2px 2px 2px gray;
+}
+
+.icon
+{
+    font-family: WebSymbolsRegular;
+    color: #333;
+}
+
+#imagenPrin #redesSociales a
+{
+    display: block;
+    float: left;
+    /*color: #333;*/
+    text-decoration: none;
+    font-size: 30px;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+#imagenPrin #redesSociales a #twiter:hover
+{
+    color: #1DA1F2;
+}
+
+#imagenPrin #redesSociales #facebook:hover
+{
+    color: #5576BE;
+}
+
+#imagenPrin #redesSociales a #youtube:hover
+{
+    color: #FF0000;
+}
+
+
+/*Examenes en el cuerpo*/
+.examenes
+{
+    display: block;
+    float: left;
+    border-radius: 5px;
+    line-height: 50px;
+    text-align: center;
+    padding: 5px;
+    box-shadow: 0px 1px 0px #747d81, 1px 2px 0px #393d3f, 2px 3px 0px #393d3f, 3px 4px 0px #393d3f;
+    margin: auto 10px;
+    margin-top: 20px;
+    width: 45%;
+    height: 50px;   
+    transition: all 1000ms;
+}
+
+.examenes:hover 
+{
+    background-color: #2633E3;
+    border-radius: 30px;
+}
+
+.examenes a
+{
+    text-decoration: none;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.examenes:hover a
+{
+    color: white;
+}
+/*Cuerpo*/
+#cuerpo
+{
+    width: 90%;
+    margin: 0 auto;
+}
+
+#videoexplicativo
+{
+    margin: 0 auto;
+    margin-top: 50px;
+    width:560px;
+    height:315px;
+}
+
+/*Aside*/
+
+aside
+{
+    width: 100%;
+    height: 300px;
+    margin: 0px auto;
+    margin-top: 50px;
+    background-color: /*#EFDD51*/#030641;
+}
+
+/*Footer*/
+footer
+{
+    width: 100%;
+    min-height: 400px;
+    max-height: 1000px;
+    margin: 0px auto;
+    background-color: #2B36DA;
+}
+
+
+#categoria
+{
+    width: 84%;
+    margin: auto;
+    color: white;
+}
+
+footer h5
+{
+    display: block;
+    background: url('../img/pxgray.png'), white;
+    min-height: 50px;
+    width: 85%;
+    letter-spacing: 3px;
+    text-align: center;
+    font-family: "BebasNeue";
+    font-size: 35px;
+    line-height: 55px;
+    color: blue;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    margin-top: 20px;
+    margin-left: 15px;
+}
+
+.footercolum
+{
+    display: block;
+    width: 33%;
+    min-height:300px;
+    float: left;
+    
+}
+.contacto
+{
+    width: 30px;
+    height: 25px;
+    margin: 0px;
+    padding: 0px;
+}
+
+footer #browsers .imgs
+{
+    width: 15px;
+}
+
+footer .footercolum p
+{
+    color: white;
+    text-align: center;
+}

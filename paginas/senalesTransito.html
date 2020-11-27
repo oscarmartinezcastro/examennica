@@ -1,0 +1,1034 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="jssenales/senales.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="estilosenales/style.css">
+    <link rel="icon" href="../img/EN.jpeg" type="text/jpeg">
+    <title>SEÑALES DE TRANSITO.</title>
+</head>
+<body>
+    <body>
+        <div id="elvolturaseñales">
+        <header>
+            <h1>Examen Señales de transito.</h1>
+        </header>
+            <nav></nav>
+            <div id="notaFinal">
+                <h3>La Nota es evaluada de 0 a 100</h3>
+                <span id="resultadoFinal"></span>
+            </div>
+            <div id="botones">
+                <button id="atras" class="borton" ><strong><</strong></button>
+                <button id="adelante" class="borton"><strong>></strong></button><br><br>
+                <button id="resultado" class="borton">Nota</button>
+                </div>
+            <div id="preguntas">
+                <div id="pregunta1">
+                    <h3>1. ¿Qué indica esta posición del agente?</h3>
+                    <form name="Fpregunta1">
+                        <input type="radio" id="a1" value="a1" name="pregunt1" required>
+                        <label for="a1">a. Alto, detenga la marcha</label><br>
+                                            
+                        <input type="radio" id="b1" value="b1" name="pregunt1" required>
+                        <label for="b1">b. Continúe, siga a marcha</label><br>
+                        
+                        <input type="radio" id="c1" value="c1" name="pregunt1" required>
+                        <label for="c1">c. Pare al borde.</label><br>
+                    </form>
+                    <div class="imglaterales">
+                        <img src="imgsenales/1.PNG" alt="detenga la marcha">
+                    </div>
+                </div>
+                <!--_______FIN DE UNA PREGUNTA_____-->
+                <div id="pregunta2">
+                    <h3>2. ¿Qué indica esta posición del agente?</h3>
+                    <form name="Fpregunta2">
+                        <input type="radio" id="a2" value="a2" name="pregunt2">
+                        <label for="a2">a. Alto, detenga la marcha</label><br>
+    
+                        <input type="radio" id="b2" value="b2" name="pregunt2">
+                        <label for="b2">b. Continúe, siga a marcha</label><br>
+    
+                        <input type="radio" id="c2" value="c2" name="pregunt2">
+                        <label for="c2">c. Pare al borde.</label><br>
+                    </form>
+                    <div class="imglaterales">
+                        <img src="imgsenales/2.PNG" alt="">
+                    </div>
+                </div>
+                <!--_______FIN DE UNA PREGUNTA_____-->
+                <div id="pregunta3">
+                    <h3>3. ¿Qué indica esta posición del agente?</h3>
+                    <form name="Fpregunta3">
+                        <input type="radio" id="a3" value="a3" name="pregunt3">
+                        <label for="a3">a. Alto, detenga la marcha</label><br>
+    
+                        <input type="radio" id="b3" value="b3" name="pregunt3">
+                        <label for="b3">b. Continúe, siga a marcha</label><br>
+    
+                        <input type="radio" id="c3" value="b3" name="pregunt3">
+                        <label for="c3">c. Pare al borde.</label><br>
+                    </form>
+                    <div class="imglaterales">
+                        <img src="imgsenales/3.PNG" alt="">
+                    </div>
+                </div>
+                <!--_______FIN DE UNA PREGUNTA_____-->
+                <div id="pregunta4">
+                        <h3>4. ¿En qué lugares tengo permitido circular a esta velocidad?</h3>
+                    <form name="Fpregunta4">
+                        <input type="radio" id="a4" value="a4" name="pregunt4">
+                        <label for="a4">a. Calles y avenidas</label><br>
+    
+                        <input type="radio" id="b4" value="b4" name="pregunt4">
+                        <label for="b4">b. Caminos y carreteras</label><br>
+    
+                        <input type="radio" id="c4" value="c4" name="pregunt4">
+                        <label for="c4">c. Zonas escolares y pistas</label><br>
+                    </form>
+                    <div class="imglaterales">
+                        <img src="imgsenales/4.PNG" alt="">
+                    </div>
+                </div>
+                <!--_______FIN DE UNA PREGUNTA_____-->
+                <div id="pregunta5">
+                    <h3>5. ¿En cuáles de estos lugares se establece esta prohibición?</h3>
+                    <form name="Fpregunta5">
+                        <input type="radio" id="a5" value="a5" name="pregunt5">
+                        <label for="a5">a. Cuestas, puentes y curvas</label><br>
+                        
+                        <input type="radio" id="b5" value="b5" name="pregunt5">
+                        <label for="b5">b. Bulevares, pistas, avenidas</label><br>
+    
+                        <input type="radio" id="c5" value="c5" name="pregunt5">
+                        <label for="c5">c. Carreteras de cuatro carriles</label><br>
+                    </form>
+                    <div class="imglaterales">
+                        <img src="imgsenales/5.PNG" alt="">
+                    </div>
+                </div>
+                <!--_______FIN DE UNA PREGUNTA_____-->
+                <div id="pregunta6">
+                    <h3>6. ¿En cuáles de estos lugares se establece la prohibición de
+                        estacionar?</h3>
+                    <form name="Fpregunta6">
+                        <input type="radio" id="a6" value="a6" name="pregunt6">
+                        <label for="a6">a. En estacionamientos de discapacitados</label><br>
+        
+                        <input type="radio" id="b6" value="b6" name="pregunt6">
+                        <label for="b6">b. Entradas de clínicas, frente a garajes e hidrates</label><br>
+        
+                        <input type="radio" id="c6" value="c6" name="pregunt6">
+                        <label for="c6">c. En rotondas, sobre aceras y paradas de buses</label><br>
+
+                        <input type="radio" id="d6" value="d6" name="pregunt6">
+                        <label for="d6">d. Todas las anteriores</label><br>
+        
+                        <input type="radio" id="e6" value="e6" name="pregunt6">
+                        <label for="e6">e. Ninguna de las anteriores</label><br>
+                    </form>
+                    <div class="imglaterales">
+                        <img src="imgsenales/6.PNG" alt="">
+                    </div>
+                </div>
+                <!--_______FIN DE UNA PREGUNTA_____-->
+                <div id="pregunta7">
+                    <h3>7. ¿Qué tipo de señal es la se muestra?</h3>
+                    <form name="Fpregunta7">
+                        <input type="radio" id="a7" value="a7" name="pregunt7">
+                        <label for="a7">a. Reglamentaria vertical</label><br>
+        
+                        <input type="radio" id="b7" value="b7" name="pregunt7">
+                        <label for="b7">b. Preventiva vertical</label><br>
+        
+                        <input type="radio" id="c7" value="c7" name="pregunt7">
+                        <label for="c7">c. Informativa horizontal</label><br>
+                    </form>
+                    <div class="imglaterales">
+                        <img src="imgsenales/7.PNG" alt="">
+                    </div>
+                </div>
+                <!--_______FIN DE UNA PREGUNTA_____-->
+                <div id="pregunta8">
+                    <h3>8. ¿Cuál es el significado correcto de esta señal?</h3>
+                    <form name="Fpregunta8">
+                        <input type="radio" id="a8" value="a8" name="pregunt8">
+                        <label for="a8">a. Zona escolar</label><br>
+        
+                        <input type="radio" id="b8" value="b8" name="pregunt8">
+                        <label for="b8">b. Peatones en la vía</label><br>
+        
+                        <input type="radio" id="c8" value="c8" name="pregunt8">
+                        <label for="c8">c. Zona comercial</label><br>
+                    </form>
+                    <div class="imglaterales">
+                        <img src="imgsenales/8.PNG" alt="">
+                    </div>
+                </div>
+                <!--_______FIN DE UNA PREGUNTA_____-->
+                <div id="pregunta9">
+                    <h3>9. ¿Qué debe hacer el conductor ante la presencia de esta señal?</h3>
+                    <form name="Fpregunta9">
+                        <input type="radio" id="a9" value="a9" name="pregunt9">
+                        <label for="a9">a. Reducir la velocidad y pitar</label><br>
+        
+                        <input type="radio" id="b9" value="b9" name="pregunt9">
+                        <label for="b9">b. Reducir la velocidad y observar la presencia de semovientes</label><br>
+        
+                        <input type="radio" id="c9" value="c9" name="pregunt9">
+                        <label for="c9">c. Nada si no hay semovientes</label><br>
+                    </form>
+                    <div class="imglaterales">
+                        <img src="imgsenales/9.PNG" alt="">
+                    </div>
+                </div>
+                <!--_______FIN DE UNA PREGUNTA_____-->
+                <div id="pregunta10">
+                    <h3>10. ¿Qué indica esta señal ensamblada junto al alto?</h3>
+                    <form name="Fpregunta10">
+                        <input type="radio" id="a10" value="a10" name="pregunt10">
+                        <label for="a10">a. Que la vía adyacente es de un solo sentido</label><br>
+    
+                        <input type="radio" id="b10" value="b10" name="pregunt10">
+                        <label for="b10">b. Que la vía adyacente es de doble sentido</label><br>
+    
+                        <input type="radio" id="c10" value="c10" name="pregunt10">
+                        <label for="c10">c. Que no puedo doblar en ningún sentido</label><br>
+                    </form>
+                    <div class="imglaterales">
+                        <img src="imgsenales/10.PNG" alt="">
+                    </div>
+                </div>
+                <!--_______FIN DE UNA PREGUNTA_____-->
+                <div id="pregunta11">
+                    <h3>11. ¿Según la imagen, este conductor que indica?</h3>
+                    <form name="Fpregunta11">
+                        <input type="radio" id="a11" value="a11" name="pregunt11">
+                        <label for="a11">a. Se dispone a salir de la vía</label><br>
+    
+                        <input type="radio" id="b11" value="b11" name="pregunt11">
+                        <label for="b11">b. Va a gira ala derecha</label><br>
+    
+                        <input type="radio" id="c11" value="c11" name="pregunt11">
+                        <label for="c11">c. Va a girar a la izquierda</label><br>
+                    </form>
+                    <div class="imglaterales">
+                        <img src="imgsenales/11.PNG" alt="">
+                    </div>
+                </div>
+                <!--_______FIN DE UNA PREGUNTA_____-->
+                <div id="pregunta12">
+                    <h3>12. ¿Según la imagen, este conductor que indica?</h3>
+                    <form name="Fpregunta12">
+                        <input type="radio" id="a12" value="a12" name="pregunt12">
+                        <label for="a12">a. Se dispone a adelantar</label><br>
+    
+                        <input type="radio" id="b12" value="b12" name="pregunt12">
+                        <label for="b12">b. Va a girar hacia la derecha</label><br>
+    
+                        <input type="radio" id="c12" value="c12" name="pregunt12">
+                        <label for="c12">c. Va a girar hacia la izquierda</label><br>
+                    </form>
+                    <div class="imglaterales">
+                        <img src="imgsenales/12.PNG" alt="">
+                    </div>
+                </div>
+                <!--_______FIN DE UNA PREGUNTA_____-->
+                <div id="pregunta13">
+                    <h3>13. Esta señal que se muestra, indica:</h3>
+                    <form name="Fpregunta13">
+                        <input type="radio" id="a13" value="a13" name="pregunt13">
+                        <label for="a13">a. Se permite el giro a la izquierda</label><br>
+    
+                        <input type="radio" id="b13" value="b13" name="pregunt13">
+                        <label for="b13">b. Me aproximo a una curva a la derecha</label><br>
+    
+                        <input type="radio" id="c13" value="c13" name="pregunt13">
+                        <label for="c13">c. Todo giro derecho, está prohibido</label><br>
+
+                        <input type="radio" id="d13" value="d13" name="pregunt13">
+                        <label for="d13">d. Ninguna de las anteriores</label><br>
+    
+                        <input type="radio" id="e13" value="e13" name="pregunt13">
+                        <label for="e13">e. Todas las anteriores.</label><br>
+                    </form>
+                    <div class="imglaterales">
+                        <img src="imgsenales/13.PNG" alt="">
+                    </div>
+                </div>
+                <!--_______FIN DE UNA PREGUNTA_____-->
+                <div id="pregunta14">
+                    <h3>14. Esta señal preventiva que se muestra, indica:</h3>
+                    <form name="Fpregunta14">
+                        <input type="radio" id="a14" value="a14" name="pregunt14">
+                        <label for="a14">a. Me aproximo a un tope</label><br>
+    
+                        <input type="radio" id="b14" value="b14" name="pregunt14">
+                        <label for="b14">b. Me aproximo a una curva a la derecha</label><br>
+    
+                        <input type="radio" id="c14" value="c14" name="pregunt14">
+                        <label for="c14">c. Todo giro derecho, está prohibido</label><br>
+                    </form>
+                    <div class="imglaterales">
+                        <img src="imgsenales/14.PNG" alt="">
+                    </div>
+                </div>
+                <!--_______FIN DE UNA PREGUNTA_____-->
+                <div id="pregunta15">
+                    <h3>15. ¿cómo se define esta señal que se muestra?</h3>
+                    <form name="Fpregunta15">
+                        <input type="radio" id="a15" value="a15" name="pregunt15">
+                        <label for="a15">a. Dispositivo luminosos que regula la circulación vial</label><br>
+    
+                        <input type="radio" id="b15" value="b15" name="pregunt15">
+                        <label for="b15">b. Me aproximo a un semáforo peatonal</label><br>
+    
+                        <input type="radio" id="c15" value="c15" name="pregunt15">
+                        <label for="c15">c. Cualquier giro, está prohibido</label><br>
+                    </form>
+                    <div class="imglaterales">
+                        <img src="imgsenales/15.PNG" alt="">
+                    </div>
+                </div>
+                <!--_______FIN DE UNA PREGUNTA_____-->
+                <div id="pregunta16">
+                    <h3>16. ¿Qué indica esta señal reglamentaria?</h3>
+                    <form name="Fpregunta16">
+                        <input type="radio" id="a16" value="a16" name="pregunt16">
+                        <label for="a16">a. Cualquier giro de retorno es legal</label><br>
+    
+                        <input type="radio" id="b16" value="b16" name="pregunt16">
+                        <label for="b16">b. No podía bajo ninguna circunstancia hacer giro en “U”</label><br>
+    
+                        <input type="radio" id="c16" value="c16" name="pregunt16">
+                        <label for="c16">c. La señal indica que si se puede girar en “U"</label><br>
+                    </form>
+                    <div class="imglaterales">
+                        <img src="imgsenales/16.PNG" alt="">
+                    </div>
+                </div>
+                <!--_______FIN DE UNA PREGUNTA_____-->
+                <div id="pregunta17">
+                    <h3>17. Esta señal que se le muestra, indica:</h3>
+                    <form name="Fpregunta17">
+                        <input type="radio" id="a17" value="a17" name="pregunt17">
+                        <label for="a17">a. Me aproximo a un giro a la derecha</label><br>
+    
+                        <input type="radio" id="b17" value="b17" name="pregunt17">
+                        <label for="b17">b. Me aproximo a una curva a la izquierda</label><br>
+    
+                        <input type="radio" id="c17" value="c17" name="pregunt17">
+                        <label for="c17">c. Todo giro izquierdo está prohibido</label><br>
+                    </form>
+                    <div class="imglaterales">
+                        <img src="imgsenales/17.PNG" alt="">
+                    </div>
+                </div>
+                <!--_______FIN DE UNA PREGUNTA_____-->
+                <div id="pregunta18">
+                    <h3>18. ¿Qué tipo de vehículo representa la imagen?</h3>
+                    <form name="Fpregunta18">
+                        <input type="radio" id="a18" value="a18" name="pregunt18">
+                        <label for="a18">a. Un vehículo de régimen preferente</label><br>
+    
+                        <input type="radio" id="b18" value="b18" name="pregunt18">
+                        <label for="b18">b. Un vehículo de circulación normal</label><br>
+    
+                        <input type="radio" id="c18" value="c18" name="pregunt18">
+                        <label for="c18">c. Un vehículo que no es de ningún régimen</label><br>
+                    </form>
+                    <div class="imglaterales">
+                        <img src="imgsenales/18.PNG" alt="">
+                    </div>
+                </div>
+                <!--_______FIN DE UNA PREGUNTA_____-->
+                <div id="pregunta19">
+                    <h3>19. Esta señal reglamentaria que se le muestra, indica:</h3>
+                    <form name="Fpregunta19">
+                        <input type="radio" id="a19" value="a19" name="pregunt19">
+                        <label for="a19">a. Use la bocina</label><br>
+    
+                        <input type="radio" id="b19" value="b19" name="pregunt19">
+                        <label for="b19">b. Use luces bajas</label><br>
+    
+                        <input type="radio" id="c19" value="c19" name="pregunt19">
+                        <label for="c19">c. Zona de silencio</label><br>
+                    </form>
+                    <div class="imglaterales">
+                        <img src="imgsenales/19.PNG" alt="">
+                    </div>
+                </div>
+                <!--_______FIN DE UNA PREGUNTA_____-->
+                <div id="pregunta20">
+                    <h3>20. Esta señal que se le muestra, indica:</h3>
+                    <form name="Fpregunta20">
+                        <input type="radio" id="a20" value="a20" name="pregunt20">
+                        <label for="a20">a. Prohibido girar izquierdo</label><br>
+    
+                        <input type="radio" id="b20" value="b20" name="pregunt20">
+                        <label for="b20">b. Me aproximo a una curva a la izquierda</label><br>
+    
+                        <input type="radio" id="c20" value="c20" name="pregunt20">
+                        <label for="c20">c. Todo giro derecho, está prohibido</label><br>
+                    </form>
+                    <div class="imglaterales">
+                        <img src="imgsenales/20.PNG" alt="">
+                    </div>
+                </div>
+                <!--_______FIN DE UNA PREGUNTA_____-->
+                <div id="pregunta21">
+                    <h3>21. ¿Qué indica esta señal que le muestra?</h3>
+                    <form name="Fpregunta21">
+                        <input type="radio" id="a21" value="a21" name="pregunt21">
+                        <label for="a21">a. Se trata de una vía de doble sentido</label><br>
+    
+                        <input type="radio" id="b21" value="b21" name="pregunt21">
+                        <label for="b21">b. Me aproximo a un paso peatonal</label><br>
+    
+                        <input type="radio" id="c21" value="c21" name="pregunt21">
+                        <label for="c21">c. Me aproximo a una calle transitada</label><br>
+                    </form>
+                    <div class="imglaterales">
+                        <img src="imgsenales/21.PNG" alt="">
+                    </div>
+                </div>
+                <!--_______FIN DE UNA PREGUNTA_____-->
+                <div id="pregunta22">
+                    <h3>22. ¿Qué maniobra permite esta señal que se muestra?</h3>
+                    <form name="Fpregunta22">
+                        <input type="radio" id="a22" value="a22" name="pregunt22">
+                        <label for="a22">a. Siga de frente</label><br>
+    
+                        <input type="radio" id="b22" value="b22" name="pregunt22">
+                        <label for="b22">b. No hay paso</label><br>
+    
+                        <input type="radio" id="c22" value="c22" name="pregunt22">
+                        <label for="c22">c. Una sola vía</label><br>
+                    </form>
+                    <div class="imglaterales">
+                        <img src="imgsenales/22.PNG" alt="">
+                    </div>
+                </div>
+                <!--_______FIN DE UNA PREGUNTA_____-->
+                <div id="pregunta23">
+                    <h3>23. ¿Qué significado representa esta señal?</h3>
+                    <form name="Fpregunta23">
+                        <input type="radio" id="a23" value="a23" name="pregunt23">
+                        <label for="a23">a. Cuidado, poblado próximo</label><br>
+    
+                        <input type="radio" id="b23" value="b23" name="pregunt23">
+                        <label for="b23">b. Zona escolar</label><br>
+    
+                        <input type="radio" id="c23" value="c23" name="pregunt23">
+                        <label for="c23">c. Todo giro izquierdo, está permitido</label><br>
+                    </form>
+                    <div class="imglaterales">
+                        <img src="imgsenales/23.PNG" alt="">
+                    </div>
+                </div>
+                <!--_______FIN DE UNA PREGUNTA_____-->
+                <div id="pregunta24">
+                    <h3>24. ¿Qué significan estas líneas que se muestran?</h3>
+                    <form name="Fpregunta24">
+                        <input type="radio" id="a24" value="a24" name="pregunt24">
+                        <label for="a24">a. Vía de doble sentido</label><br>
+    
+                        <input type="radio" id="b24" value="b24" name="pregunt24">
+                        <label for="b24">b. Se puede aventajar</label><br>
+    
+                        <input type="radio" id="c24" value="c24" name="pregunt24">
+                        <label for="c24">c. Vía es de un solo sentido</label><br>
+                    </form>
+                    <div class="imglaterales">
+                        <img src="imgsenales/24.PNG" alt="">
+                    </div>
+                </div>
+                <!--_______FIN DE UNA PREGUNTA_____-->
+                <div id="pregunta25">
+                    <h3>25. Esta señal que se muestra, indica:</h3>
+                    <form name="Fpregunta25">
+                        <input type="radio" id="a25" value="a25" name="pregunt25">
+                        <label for="a25">a. Debo detenerme y ceder el paso al que circula en vía preferencial</label><br>
+    
+                        <input type="radio" id="b25" value="b25" name="pregunt25">
+                        <label for="b25">b. Debo pasar con cuidado sonando el pito para advertir</label><br>
+    
+                        <input type="radio" id="c25" value="c25" name="pregunt25">
+                        <label for="c25">c. Solo debo bajar velocidad y continuar siempre</label><br>
+                    </form>
+                    <div class="imglaterales">
+                        <img src="imgsenales/25.PNG" alt="">
+                    </div>
+                </div>
+                <!--_______FIN DE UNA PREGUNTA_____-->
+                <div id="pregunta26">
+                    <h3>26. Esta señal que se muestra, indica:</h3>
+                <form name="Fpregunta26">
+                    <input type="radio" id="a26" value="a26" name="pregunt26">
+                    <label for="a26">a. Vía de doble sentido</label><br>
+    
+                    <input type="radio" id="b26" value="b26" name="pregunt26">
+                    <label for="b26">b. El que circula en la banda izquierda puede aventajar.</label><br>
+    
+                    <input type="radio" id="c26" value="c26" name="pregunt26">
+                    <label for="c26">c. El que circula en la banda derecha no puede aventajar.</label><br>
+
+                    <input type="radio" id="d26" value="d26" name="pregunt26">
+                    <label for="d26">d. Todas las anteriores</label><br>
+
+                    <input type="radio" id="e26" value="e26" name="pregunt26">
+                    <label for="e26">e. Ninguna de las anteriores</label><br>
+                </form>
+                <div class="imglaterales">
+                    <img src="imgsenales/26.PNG" alt="">
+                </div>
+                </div>
+                <!--_______FIN DE UNA PREGUNTA_____-->
+                <div id="pregunta27">
+                    <h3>27. Esta señal que se muestra, indica:</h3>
+                    <form name="Fpregunta27">
+                        <input type="radio" id="a27" value="a27" name="pregunt27">
+                        <label for="a27">a. Vía de doble sentido y No puedo aventajar</label><br>
+    
+                        <input type="radio" id="b27" value="b27" name="pregunt27">
+                        <label for="b27">b. Vía de un solo sentido</label><br>
+    
+                        <input type="radio" id="c27" value="c27" name="pregunt27">
+                        <label for="c27">c. Si se puede aventajar</label><br>
+                    </form>
+                    <div class="imglaterales">
+                        <img src="imgsenales/27.PNG" alt="">
+                    </div>
+                </div>
+                <!--_______FIN DE UNA PREGUNTA_____-->
+                <div id="pregunta28">
+                    <h3>28. Esta señal que se muestra, indica:</h3>
+                    <form name="Fpregunta28">
+                        <input type="radio" id="a28" value="a28" name="pregunt28">
+                        <label for="a28">a. Vía de doble sentido y puede aventajar con precaución</label><br>
+    
+                        <input type="radio" id="b28" value="b28" name="pregunt28">
+                        <label for="b28">b. No Puedo aventajar</label><br>
+    
+                        <input type="radio" id="c28" value="c28" name="pregunt28">
+                        <label for="c28">c. Todo giro izquierdo, está permitido</label><br>
+                    </form>
+                    <div class="imglaterales">
+                        <img src="imgsenales/28.PNG" alt="">
+                    </div>
+                </div>
+                <!--_______FIN DE UNA PREGUNTA_____-->
+                <div id="pregunta29">
+                    <h3>29. Estas señales que se muestran, indican:</h3>
+                    <form name="Fpregunta29">
+                        <input type="radio" id="a29" value="a29" name="pregunt29">
+                        <label for="a29">a. Carril de centro para aventajar</label><br>
+    
+                        <input type="radio" id="b29" value="b29" name="pregunt29">
+                        <label for="b29">b. Carril izquierdo, siga de frente</label><br>
+    
+                        <input type="radio" id="c29" value="c29" name="pregunt29">
+                        <label for="c29">c. Carril derecho, solo puede girar derecho</label><br>
+    
+                        <input type="radio" id="d29" value="d29" name="pregunt29">
+                        <label for="d29">d. Todas las anteriores.</label><br>
+    
+                        <input type="radio" id="e29" value="e29" name="pregunt29">
+                        <label for="e29">e. Ninguna de las anteriores</label><br>
+                    </form>
+                    <div class="imglaterales">
+                        <img src="imgsenales/29.PNG" alt="señales">
+                    </div>
+                </div>
+                <!--_______FIN DE UNA PREGUNTA_____-->
+                <div id="pregunta30">
+                    <h3>30. ¿Qué indican las flechas direccionales?</h3>
+                    <form name="Fpregunta30">
+                        <input type="radio" id="a30" value="a30" name="pregunt30">
+                        <label for="a30">a. Que se permite la maniobra que el símbolo indica</label><br>
+    
+                        <input type="radio" id="b30" value="b30" name="pregunt30">
+                        <label for="b30">b. Líneas que canalizan el trafico</label><br>
+    
+                        <input type="radio" id="c30" value="c30" name="pregunt30">
+                        <label for="c30">c. Que no se puede girar a la derecha</label><br>
+                    </form>
+                    <div class="imglaterales">
+                        <img src="imgsenales/30.PNG" alt="flechas direccionales">
+                    </div>
+                </div>
+                <!--_______FIN DE UNA PREGUNTA_____-->
+                <div id="pregunta31">
+                    <h3>31. ¿Qué indica este señal preventiva?</h3>
+                    <form name="Fpregunta31">
+                        <input type="radio" id="a31" value="a31" name="pregunt31">
+                        <label for="a31">a. Vía de doble sentido y puedo aventajar</label><br>
+    
+                        <input type="radio" id="b31" value="b31" name="pregunt31">
+                        <label for="b31">b. Curva y contra curva</label><br>
+    
+                        <input type="radio" id="c31" value="c31" name="pregunt31">
+                        <label for="c31">c. Todo giro izquierdo, está permitido</label><br>
+                    </form>
+                    <div class="imglaterales">
+                        <img src="imgsenales/31.PNG" alt="Curva y contra curva">
+                    </div>
+                </div>
+                <!--_______FIN DE UNA PREGUNTA_____-->
+                <div id="pregunta32">
+                    <h3>32. Que indican estas marcas horizontales, que se muestran:</h3>
+                    <form name="Fpregunta32">
+                        <input type="radio" id="a32" value="a32" name="pregunt32">
+                        <label for="a32">a. Peatones tienen preferencia</label><br>
+    
+                        <input type="radio" id="b32" value="b32" name="pregunt32">
+                        <label for="b32">b. Zona de seguridad peatonal</label><br>
+    
+                        <input type="radio" id="c32" value="c32" name="pregunt32">
+                        <label for="c32">c. Obligado a detenerme</label><br>
+
+                        <input type="radio" id="d32" value="d32" name="pregunt32">
+                        <label for="d32">b. Zona de seguridad peatonal</label><br>
+    
+                        <input type="radio" id="e32" value="e32" name="pregunt32">
+                        <label for="e32">c. Obligado a detenerme</label><br>
+                    </form>
+                    <div class="imglaterales">
+                        <img src="imgsenales/32.PNG" alt="marcas horizontales">
+                    </div>
+                </div>
+                <!--_______FIN DE UNA PREGUNTA_____-->
+                <div id="pregunta33">
+                    <h3>33. ¿Qué indica para los conductores la señal de tránsito que a continuación se presenta en la figura?</h3>
+                    <form name="Fpregunta33">
+                        <input type="radio" id="a33" value="a33" name="pregunt33">
+                        <label for="a33">a. Curva a la izquierda</label><br>
+    
+                        <input type="radio" id="b33" value="b33" name="pregunt33">
+                        <label for="b33">b. Una vía de tres carriles</label><br>
+    
+                        <input type="radio" id="c33" value="c33" name="pregunt33">
+                        <label for="c33">c. Puede continuar y girar desde ese carril</label><br>
+                    </form>
+                    <div class="imglaterales">
+                        <img src="imgsenales/33.PNG" alt="girar desde ese carril">
+                    </div>
+                </div>
+                <!--_______FIN DE UNA PREGUNTA_____-->
+                <div id="pregunta34">
+                    <h3>34. Que indica para los conductores la señal de tránsito que a continuación se presenta en la figura.</h3>
+                    <form name="Fpregunta34">
+                        <input type="radio" id="a34" value="a34" name="pregunt34">
+                        <label for="a34">a. Curva pronunciada hacia la derecha</label><br>
+        
+                        <input type="radio" id="b34" value="b34" name="pregunt34">
+                        <label for="b34">b. Rotonda próxima</label><br>
+        
+                        <input type="radio" id="c34" value="c34" name="pregunt34">
+                        <label for="c34">c. Ingreso controlado</label><br>
+                    </form>
+                    <div class="imglaterales">
+                        <img src="imgsenales/34.PNG" alt="Curva pronunciada hacia la derecha">
+                    </div>
+                </div>
+                <!--_______FIN DE UNA PREGUNTA_____-->
+                <div id="pregunta35">
+                    <h3>35. ¿Qué indica para Ud. la señal de tránsito que a continuación se presenta en la figura?</h3>
+                    <form name="Fpregunta35">
+                        <input type="radio" id="a35" value="a35" name="pregunt35">
+                        <label for="a35">a. Curva a la derecha</label><br>
+    
+                        <input type="radio" id="b35" value="b35" name="pregunt35">
+                        <label for="b35">b. Giro obligatorio a la derecha</label><br>
+    
+                        <input type="radio" id="c35" value="c35" name="pregunt35">
+                        <label for="c35">c. Pendiente pronunciada a la derecha</label><br>
+                    </form>
+                    <div class="imglaterales">
+                        <img src="imgsenales/35.PNG" alt="Curva a la derecha">
+                    </div>
+                </div>
+                <!--_______FIN DE UNA PREGUNTA_____-->
+                <div id="pregunta36">
+                    <h3>36. ¿Qué mensaje es el de la señal de tránsito preventiva que a continuación se presenta en la figura?</h3>
+                    <form name="Fpregunta36">
+                        <input type="radio" id="a36" value="a36" name="pregunt36">
+                        <label for="a36">a. Curva a la derecha</label><br>
+    
+                        <input type="radio" id="b36" value="b36" name="pregunt36">
+                        <label for="b36">b. rotonda próxima</label><br>
+    
+                        <input type="radio" id="c36" value="c36" name="pregunt36">
+                        <label for="c36">c. Pendiente pronunciada a la derecha</label><br>
+                    </form>
+                    <div class="imglaterales">
+                        <img src="imgsenales/36.PNG" alt="rotonda próxima">
+                    </div>
+                </div>
+                <!--_______FIN DE UNA PREGUNTA_____-->
+                <div id="pregunta37">
+                    <h3>37. ¿Qué debo entender ante esta señal vertical?</h3>
+                    <form name="Fpregunta37">
+                        <input type="radio" id="a37" value="a37" name="pregunt37">
+                        <label for="a37">a. Puente angosto</label><br>
+    
+                        <input type="radio" id="b37" value="b37" name="pregunt37">
+                        <label for="b37">b. Poblado a la orilla</label><br>
+    
+                        <input type="radio" id="c37" value="c37" name="pregunt37">
+                        <label for="c37">c. Reducción de carril</label><br>
+                    </form>
+                    <div class="imglaterales">
+                        <img src="imgsenales/37.PNG" alt="Reducción de carril">
+                    </div>
+                </div>
+                <!--_______FIN DE UNA PREGUNTA_____-->
+                <div id="pregunta38">
+                    <h3>38 ¿Que indica para los conductores la señal de tránsito que a continuación se presenta en la figura?</h3>
+                    <form name="Fpregunta38">
+                        <input type="radio" id="a38" value="a38" name="pregunt38">
+                        <label for="a38">a. Está prohibido conducir un vehículo a una velocidad mayor de 45 Km/h</label><br>
+    
+                        <input type="radio" id="b38" value="b38" name="pregunt38">
+                        <label for="b38">b. La limitación de velocidad está destinada sólo a vehículos públicos.</label><br>
+    
+                        <input type="radio" id="c38" value="c38" name="pregunt38">
+                        <label for="c38">c. La limitación de velocidad está destinada sólo a vehículos de dos ruedas y carretilla de mano.</label><br>
+                    </form>
+                    <div class="imglaterales">
+                        <img src="imgsenales/38.PNG" alt="45 Km/h">
+                    </div>
+                </div>
+                <!--_______FIN DE UNA PREGUNTA_____-->
+                <div id="pregunta39">
+                    <h3>39. ¿Cuál de la maniobra es la correcta al observar la señal?</h3>
+                    <form name="Fpregunta39">
+                        <input type="radio" id="a39" value="a39" name="pregunt39">
+                        <label for="a39">a. Seguir la marcha sin parar si no viene otro vehículo</label><br>
+    
+                        <input type="radio" id="b39" value="b39" name="pregunt39">
+                        <label for="b39">b. Detenerse.</label><br>
+    
+                        <input type="radio" id="c39" value="c39" name="pregunt39">
+                        <label for="c39">c. Solamente observar a ambos lados izquierda derecha y seguir la marcha</label><br>
+                    </form>
+                    <div class="imglaterales">
+                        <img src="imgsenales/39.PNG" alt="alto">
+                    </div>
+                </div>
+                <!--_______FIN DE UNA PREGUNTA_____-->
+                <div id="pregunta40">
+                    <h3>40. ¿Cuál es la función de la señal vertical que a continuación se presenta en la figura?</h3>
+                    <form name="Fpregunta40">
+                        <input type="radio" id="a40" value="a40" name="pregunt40">
+                        <label for="a40">a. Indica a los conductores la obligación de Detenerse.</label><br>
+    
+                        <input type="radio" id="b40" value="b40" name="pregunt40">
+                        <label for="b40">b. Se puede bajar velocidad y continuar</label><br>
+    
+                        <input type="radio" id="c40" value="c40" name="pregunt40">
+                        <label for="c40">c. Puedo seguir la marcha con seguridad sin parar.</label><br>
+                    </form>
+                    <div class="imglaterales">
+                        <img src="imgsenales/40.PNG" alt="alto">
+                    </div>
+                </div>
+                <!--_______FIN DE UNA PREGUNTA_____-->
+                <div id="pregunta41">
+                    <h3>41. ¿En qué lugar debo parar según la gráfica que se muestra?</h3>
+                    <form name="Fpregunta41">
+                        <input type="radio" id="a41" value="a41" name="pregunt41">
+                        <label for="a41">a. Antes del paso peatonal.</label><br>
+    
+                        <input type="radio" id="b41" value="b41" name="pregunt41">
+                        <label for="b41">b. En motocicleta sobre la señal de tránsito.</label><br>
+    
+                        <input type="radio" id="c41" value="c41" name="pregunt41">
+                        <label for="c41">c. Por lo menos 10 metros antes del cruce.</label><br>
+                    </form>
+                    <div class="imglaterales">
+                        <img src="imgsenales/41.PNG" alt="paso peatonal">
+                    </div>
+                </div>
+                <!--_______FIN DE UNA PREGUNTA_____-->
+                <div id="pregunta42">
+                    <h3>42. Cuál de estas señales de tránsito tiene por objeto advertir a los usuarios trabajo en la vía.</h3>
+                    <form name="Fpregunta42">
+                        <input type="radio" id="a42" value="a42" name="pregunt42">
+                        <label for="a42"><img src="imgsenales/42a.PNG" alt=""></label><br>
+    
+                        <input type="radio" id="b42" value="b42" name="pregunt42">
+                        <label for="b42"><img src="imgsenales/42b.PNG" alt=""></label><br>
+    
+                        <input type="radio" id="c42" value="c42" name="pregunt42">
+                        <label for="c42"><img src="imgsenales/42c.PNG" alt=""></label><br>
+                    </form>
+                </div>
+                <!--_______FIN DE UNA PREGUNTA_____-->
+                <div id="pregunta43">
+                    <h3>43 ¿Cuál de estas señales, tiene por objeto notificar a conductores, las limitaciones y restricciones?</h3>
+                    <form name="Fpregunta43">
+                        <input type="radio" id="a43" value="a43" name="pregunt43">
+                        <label for="a43"><img src="imgsenales/43a.PNG" alt=""></label><br>
+    
+                        <input type="radio" id="b43" value="b43" name="pregunt43">
+                        <label for="b43"><img src="imgsenales/43b.PNG" alt=""></label><br>
+    
+                        <input type="radio" id="c43" value="c43" name="pregunt43">
+                        <label for="c43"><img src="imgsenales/43c.PNG" alt=""></label><br>
+                    </form>
+                </div>
+                <!--_______FIN DE UNA PREGUNTA_____-->
+                <div id="pregunta44">
+                    <h3>44 ¿Cuáles de las siguientes señales es informativa?</h3>
+                    <form name="Fpregunta44">
+                        <input type="radio" id="a44" value="a44" name="pregunt44">
+                        <label for="a44"><img src="imgsenales/44a.PNG" alt=""></label><br>
+    
+                        <input type="radio" id="b44" value="b44" name="pregunt44">
+                        <label for="b44"><img src="imgsenales/44b.PNG" alt=""></label><br>
+    
+                        <input type="radio" id="c44" value="c44" name="pregunt44">
+                        <label for="c44"><img src="imgsenales/44c.PNG" alt=""></label><br>
+                    </form>
+                </div>
+                <!--_______FIN DE UNA PREGUNTA_____-->
+                <div id="pregunta45">
+                    <h3>45. Seleccione cuál de las señales de tránsito advierte antes de un cruce en T.</h3>
+                    <form name="Fpregunta45">
+                        <input type="radio" id="a45" value="a45" name="pregunt45">
+                        <label for="a45"><img src="imgsenales/45a.PNG" alt=""></label><br>
+    
+                        <input type="radio" id="b45" value="b45" name="pregunt45">
+                        <label for="b45"><img src="imgsenales/45b.PNG" alt=""></label><br>
+    
+                        <input type="radio" id="c45" value="c45" name="pregunt45">
+                        <label for="c45"><img src="imgsenales/45c.PNG" alt=""></label><br>
+                    </form>
+                </div>
+                <!--_______FIN DE UNA PREGUNTA_____-->
+                <div id="pregunta46">
+                    <h3>46. ¿En cuál de las siguientes figuras puedo adelantar con precaución y tomando en cuenta las técnicas para un aventajamiento seguro?</h3>
+                    <form name="Fpregunta46">
+                        <input type="radio" id="a46" value="a46" name="pregunt46">
+                        <label for="a46"><img src="imgsenales/46a.PNG" alt=""></label><br>
+        
+                        <input type="radio" id="b46" value="b46" name="pregunt46">
+                        <label for="b46"><img src="imgsenales/46c.PNG" alt=""></label><br>
+        
+                        <input type="radio" id="c46" value="c46" name="pregunt46">
+                        <label for="c46"><img src="imgsenales/46c.PNG" alt=""></label><br>
+                    </form>
+                </div>
+                <!--_______FIN DE UNA PREGUNTA_____-->
+                <div id="pregunta47">
+                    <h3>47. ¿Seleccione cuál de las señales de tránsito, marcada en la vía señala un paso peatonal?</h3>
+                    <form name="Fpregunta47">
+                        <input type="radio" id="a47" value="a47" name="pregunt47">
+                        <label for="a47"><img src="imgsenales/47a.PNG" alt=""></label><br>
+        
+                        <input type="radio" id="b47" value="b47" name="pregunt47">
+                        <label for="b47"><img src="imgsenales/47b.PNG" alt=""></label><br>
+        
+                        <input type="radio" id="c47" value="c47" name="pregunt47">
+                        <label for="c47"><img src="imgsenales/47c.PNG" alt=""></label><br>
+                    </form>
+                </div>
+                <!--_______FIN DE UNA PREGUNTA_____-->
+                <div id="pregunta48">
+                    <h3>48 ¿En cuáles de las siguientes figuras no puedo adelantar en ninguno de los dos sentidos?</h3>
+                    <form name="Fpregunta48">
+                        <input type="radio" id="a48" value="a48" name="pregunt48">
+                        <label for="a48"><img src="imgsenales/48a.PNG" alt=""></label><br>
+        
+                        <input type="radio" id="b48" value="b48" name="pregunt48">
+                        <label for="b48"><img src="imgsenales/48b.PNG" alt=""></label><br>
+        
+                        <input type="radio" id="c48" value="c48" name="pregunt48">
+                        <label for="c48"><img src="imgsenales/48c.PNG" alt=""></label><br>
+                    </form>
+                </div>
+                <!--_______FIN DE UNA PREGUNTA_____-->
+                <div id="pregunta49">
+                    <h3>49. ¿Cuál es la diferencia entre la línea amarilla discontinua y línea blanca discontinua?</h3>
+                    <form name="Fpregunta49">
+                        <input type="radio" id="a49" value="a49" name="pregunt49">
+                        <label for="a49">a. En ambas se puede aventajar</label><br>
+        
+                        <input type="radio" id="b49" value="b49" name="pregunt49">
+                        <label for="b49">b. Ambas indican que se tratan de vías de doble sentido</label><br>
+        
+                        <input type="radio" id="c49" value="c49" name="pregunt49">
+                        <label for="c49">c. El color amarillo indica doble sentido de circulación y el color blanco un solo sentido.</label><br>
+                    </form>
+                </div>
+                <!--_______FIN DE UNA PREGUNTA_____-->
+                <div id="pregunta50">
+                    <h3>50 La línea continua de color blanco, me indica que:</h3>
+                    <form name="Fpregunta50">
+                        <input type="radio" id="a50" value="a50" name="pregunt50">
+                        <label for="a50">a. La calle es de doble vía</label><br>
+    
+                        <input type="radio" id="b50" value="b50" name="pregunt50">
+                        <label for="b50">b. No debo hacer cambio de carril, es de una sola vía</label><br>
+    
+                        <input type="radio" id="c50" value="c50" name="pregunt50">
+                        <label for="c50">c. Puedo hacer cambio de carril</label><br>
+                    </form>
+                </div>
+                <!--_______FIN DE UNA PREGUNTA_____-->
+                <div id="pregunta51">
+                    <h3>51. El “alto” es una señal que se clasifica como:</h3>
+                    <form name="Fpregunta51">
+                        <input type="radio" id="a51" value="a51" name="pregunt51">
+                        <label for="a51">a. Preventiva</label><br>
+                                            
+                        <input type="radio" id="b51" value="b51" name="pregunt51">
+                        <label for="b51">b. Reglamentaria o Restrictivas</label><br>
+                        
+                        <input type="radio" id="c51" value="c51" name="pregunt51">
+                        <label for="c51">c. Informativa</label><br>
+                    </form>
+                </div>
+                <!--_______FIN DE UNA PREGUNTA_____-->
+                <div id="pregunta52">
+                    <h3>52. El semáforo es una señal que se clasifica como:</h3>
+                    <form name="Fpregunta52">
+                        <input type="radio" id="a52" value="a52" name="pregunt52">
+                        <label for="a52">a. Preventiva</label><br>
+    
+                        <input type="radio" id="b52" value="b52" name="pregunt52">
+                        <label for="b52">b. Lumínica que regula la circulación vial.</label><br>
+    
+                        <input type="radio" id="c52" value="c52" name="pregunt52">
+                        <label for="c52">c. Informativa</label><br>
+                    </form>
+                </div>
+                <!--_______FIN DE UNA PREGUNTA_____-->
+                <div id="pregunta53">
+                    <h3>53¿Qué es Regulación a brazos?</h3>
+                    <form name="Fpregunta53">
+                        <input type="radio" id="a53" value="a53" name="pregunt53">
+                        <label for="a53">a. Movimientos coordinados y coherentes que realiza el agente Transito sobre la vía, para el desplazamiento de los vehículos y el ordenamiento peatonal.</label><br>
+    
+                        <input type="radio" id="b53" value="b53" name="pregunt53">
+                        <label for="b53">b. Las señales de brazos que realiza el conductor</label><br>
+    
+                        <input type="radio" id="c53" value="b53" name="pregunt53">
+                        <label for="c53">c. Señales que debemos ejecutar cuando tenemos desperfecto en luces direccionales.</label><br>
+                    </form>
+                </div>
+                <!--_______FIN DE UNA PREGUNTA_____-->
+                <div id="pregunta54">
+                        <h3>54¿Qué se entiende por señales informativas?</h3>
+                    <form name="Fpregunta54">
+                        <input type="radio" id="a54" value="a54" name="pregunt54">
+                        <label for="a54">a. Son aquellas que tienen por objeto identificar las vías y lugares por donde se va circulando. así como guiar los conductores y peatones de manera correcta y segura.</label><br>
+    
+                        <input type="radio" id="b54" value="b54" name="pregunt54">
+                        <label for="b54">b. Las que anuncian las vueltas de la carretera.</label><br>
+    
+                        <input type="radio" id="c54" value="c54" name="pregunt54">
+                        <label for="c54">c. Las que se colocan en las esquinas</label><br>
+                    </form>
+                </div>
+                <!--_______FIN DE UNA PREGUNTA_____-->
+                <div id="pregunta55">
+                    <h3>55 ¿Cuáles son las Señales verticales?</h3>
+                    <form name="Fpregunta55">
+                        <input type="radio" id="a55" value="a55" name="pregunt55">
+                        <label for="a55">a. Están pintadas en la vía</label><br>
+                        
+                        <input type="radio" id="b55" value="b55" name="pregunt55">
+                        <label for="b55">b. Los semáforos que regulan la circulación vial</label><br>
+    
+                        <input type="radio" id="c55" value="c55" name="pregunt55">
+                        <label for="c55">c. Son aquellas que contienen símbolos ubicados en parales y que se ubican a la orilla de las vías, a fin de regular e informar y prevenir la circulación.</label><br>
+                    </form>
+                </div>
+                <!--_______FIN DE UNA PREGUNTA_____-->
+                <div id="pregunta56">
+                    <h3>56 ¿Cuáles son las señales horizontales?</h3>
+                    <form name="Fpregunta56">
+                        <input type="radio" id="a56" value="a56" name="pregunt56">
+                        <label for="a56">a. Son marcas y símbolos pintados en el pavimento, con fines de regulación e informar el tránsito.</label><br>
+        
+                        <input type="radio" id="b56" value="b56" name="pregunt56">
+                        <label for="b56">b. Son aquellas que contienen símbolos ubicados en parales y que la finalidad de regular e informar sobre el tránsito.</label><br>
+        
+                        <input type="radio" id="c56" value="c56" name="pregunt56">
+                        <label for="c56">c. Los semáforos que regulan la circulación vial</label><br>
+                    </form>
+                </div>
+                <!--_______FIN DE UNA PREGUNTA_____-->
+                <div id="pregunta57">
+                    <h3>57. En una rotonda de tres carriles de entrada, usted circula en el carril del centro, ¿Cuál de las siguientes maniobras es permitida?</h3>
+                    <form name="Fpregunta57">
+                        <input type="radio" id="a57" value="a57" name="pregunt57">
+                        <label for="a57">a. Girar a la izquierda</label><br>
+        
+                        <input type="radio" id="b57" value="b57" name="pregunt57">
+                        <label for="b57">b. Seguir de frente</label><br>
+        
+                        <input type="radio" id="c57" value="c57" name="pregunt57">
+                        <label for="c57">c. Girar a la derecha</label><br>
+                    </form>
+                </div>
+                <!--_______FIN DE UNA PREGUNTA_____-->
+                <div id="pregunta58">
+                    <h3>58. En una rotonda de tres carriles de entrada, usted circula en el carril izquierdo, ¿Cuál de las siguientes maniobras es permitida?</h3>
+                    <form name="Fpregunta58">
+                        <input type="radio" id="a58" value="a58" name="pregunt58">
+                        <label for="a58">a. Girar a la derecha</label><br>
+        
+                        <input type="radio" id="b58" value="b58" name="pregunt58">
+                        <label for="b58">b. Seguir de frente</label><br>
+        
+                        <input type="radio" id="c58" value="c58" name="pregunt58">
+                        <label for="c58">c. Retornar</label><br>
+                    </form>
+                </div>
+                <!--_______FIN DE UNA PREGUNTA_____-->
+                <div id="pregunta59">
+                    <h3>59. ¿El semáforo amarillo intermitente permanente, que indica al conductor?</h3>
+                    <form name="Fpregunta59">
+                        <input type="radio" id="a59" value="a59" name="pregunt59">
+                        <label for="a59">a. Siempre tengo la preferencia con la luz amarilla</label><br>
+        
+                        <input type="radio" id="b59" value="b59" name="pregunt59">
+                        <label for="b59">b. Preferencia de paso y bajar la velocidad cuando la luz roja es intermitente</label><br>
+        
+                        <input type="radio" id="c59" value="c59" name="pregunt59">
+                        <label for="c59">c. Reducir la velocidad e incluso parar si es necesario, debo observar los otros sentidos de circulación</label><br>
+                    </form>
+                </div>
+                <!--_______FIN DE UNA PREGUNTA_____-->
+                <div id="pregunta60">
+                    <h3>60. ¿Cuál es la función de las señales preventivas?</h3>
+                    <form name="Fpregunta60">
+                        <input type="radio" id="a60" value="a60" name="pregunt60">
+                        <label for="a60">a. Nos advierten de peligros en la vía y la naturaleza de ese peligro</label><br>
+    
+                        <input type="radio" id="b60" value="b60" name="pregunt60">
+                        <label for="b60">b. Nos suministran valiosa información sobre la proximidad de gasolineras, hospitales y otros</label><br>
+    
+                        <input type="radio" id="c60" value="c60" name="pregunt60">
+                        <label for="c60">c. Nos suministran información sobre la proximidad de estacionamientos, áreas de restaurantes u otros.</label><br>
+                    </form>
+                </div>
+                <!--_______FIN DE UNA PREGUNTA_____-->
+            </div><!--******FIN DE LAS PREGUNTAS*********-->
+           <!-- <div id="botones">
+                <button id="atras"><-Atras</button>
+                <button id="adelante">Adelante-></button><br>
+                <button id="resultado">resultado</button>
+                </div>
+            -->
+            <aside></aside>
+            <footer></footer>
+        </div>
+    </body>
+</body>
+</html>

@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Categoria 3</title>
+    <link rel="stylesheet" href="estiloscat3/stylecat3.css" type="text/css">
+    <link rel="icon" href="../img/EN.jpeg" type="text/jpeg">
+    <script type="text/javascript" src="javascriptcat3/examencat3.js"></script>
+</head>
+<body>
+    <div id="envolturacat3">
+        <header> 
+            <h1>Examen teórico de categoría 3</h1>
+        </header>
+        <nav></nav>
+        <!--La caja respuesta permanece oculta asta que termine la prueba. -->
+        <div id="notaFinal">
+            <h3>La Nota es evaluada de 0 a 100</h3>
+            <span id="resultadoFinal"></span>
+        </div>
+        <!--Se muestran los botones para desplazarce entre las 40 preguntas y para evaluar el examen-->
+        <div id="botones">
+            <button id="atras" class="borton"><strong><</strong></button>
+            <button id="adelante" class="borton"><strong>></strong></button><br><br>
+            <button id="resultado" class="borton">Nota</button>
+        </div>
+        <!--En preguntas se contienen las 40 preguntas de la categoria 3 (vehiculo liviano en la categoria 3)-->
+        <div id="preguntas">
+            <div id="pregunta1">
+                <h3>1 ¿Qué debe hacer usted si su automóvil, se desvía hacia un lado cuando frena?</h3>
+                <form name="Fpregunta1">
+                    <input type="radio" id="a1" value="a1" name="pregunt1" required>
+                    <label for="a1">a. Revisar el sistema de dirección, presión de llantas y darlo a alinear.</label><br>
+                                        
+                    <input type="radio" id="b1" value="b1" name="pregunt1" required>
+                    <label for="b1">b. Bombear el pedal al frenar.</label><br>
+                    
+                    <input type="radio" id="c1" value="c1" name="pregunt1" required>
+                    <label for="c1">c. Frenar con más suavidad para evitar que se haga a un lado.</label><br>
+                </form>
+            </div>
+            <!--_______FIN DE UNA PREGUNTA_____-->
+            <div id="pregunta2">
+                <h3>2 ¿A qué se debe que su camioneta se desvía hacia un lado cuando usted frena?</h3>
+                <form name="Fpregunta2">
+                    <input type="radio" id="a2" value="a2" name="pregunt2">
+                    <label for="a2">a. Severo desgaste de fricciones.</label><br>
+
+                    <input type="radio" id="b2" value="b2" name="pregunt2">
+                    <label for="b2">b. Desperfecto en el sistema de dirección.</label><br>
+
+                    <input type="radio" id="c2" value="c2" name="pregunt2">
+                    <label for="c2">c. Desgaste de llantas.</label><br>
+
+                    <input type="radio" id="d2" value="d2" name="pregunt2">
+                    <label for="d2">d. Todas las anteriores.</label><br>
+
+                    <input type="radio" id="e2" value="e2" name="pregunt2">
+                    <label for="e2">e. Ninguna de las anteriores.</label><br>
+                </form>
+            </div>
+            <!--_______FIN DE UNA PREGUNTA_____-->
+            <div id="pregunta3">
+                <h3>3 ¿Qué cosas debe revisar diario de su vehículo?</h3>
+                <form name="Fpregunta3">
+                    <input type="radio" id="a3" value="a3" name="pregunt3">
+                    <label for="a3">a. Nivel de aceite, nivel del líquido de frenos, nivel hidráulico, batería, enfriamiento, correas.</label><br>
+
+                    <input type="radio" id="b3" value="b3" name="pregunt3">
+                    <label for="b3">b. Los vehículos nuevos no se revisan diariamente.</label><br>
+
+                    <input type="radio" id="c3" value="b3" name="pregunt3">
+                    <label for="c3">c. Los pistones, válvulas, líquido de frenos.</label><br>
+                </form>
+            </div>
+            <!--_______FIN DE UNA PREGUNTA_____-->
+            <div id="pregunta4">
+                    <h3>4 ¿En qué orden se realizan los ajustes previos que debe hacer al subir al vehículo?</h3>
+                <form name="Fpregunta4">
+                    <input type="radio" id="a4" value="a4" name="pregunt4">
+                    <label for="a4">a. Espejos retrovisores, cinturón de seguridad, Reposa cabezas, asiento.</label><br>
+
+                    <input type="radio" id="b4" value="b4" name="pregunt4">
+                    <label for="b4">b. Cinturón de seguridad, espejos retrovisores, asiento, reposa cabeza.</label><br>
+
+                    <input type="radio" id="c4" value="c4" name="pregunt4">
+                    <label for="c4">c. Asiento, reposa cabeza, espejos retrovisores, cinturón de seguridad.</label><br>
+                </form>
+            </div>
+            <!--_______FIN DE UNA PREGUNTA_____-->
+            <div id="pregunta5">
+                <h3>5 ¿Cuáles son elementos de seguridad activa en la conducción?</h3>
+                <form name="Fpregunta5">
+                    <input type="radio" id="a5" value="a5" name="pregunt5">
+                    <label for="a5">a. Bolsa de aire, cinturón de seguridad, espejos retrovisores, parabrisas.</label><br>
+                    
+                    <input type="radio" id="b5" value="b5" name="pregunt5">
+                    <label for="b5">b. Llantas en buen estado, parabrisas, sistema de luces.</label><br>
+
+                    <input type="radio" id="c5" value="c5" name="pregunt5">
+                    <label for="c5">c. Un asiento con apoya-cabeza ajustado en forma apropiada.</label><br>
+                </form>
+            </div>
+            <!--_______FIN DE UNA PREGUNTA_____-->
+            <div id="pregunta6">
+                <h3>6¿Cuáles son los principales indicadores (testigos) a los que debe prestar atención en el tablero del vehículo?</h3>
+            <form name="Fpregunta6">
+                <input type="radio" id="a6" value="a6" name="pregunt6">
+                <label for="a6">a. Tacómetro, velocímetro, combustible, temperatura, carga, aceite, frenos.</label><br>
+
+                <input type="radio" id="b6" value="b6" name="pregunt6">
+                <label for="b6">b. Aire acondicionado, temperatura, bolsa de aire, batería, odómetro.</label><br>
+
+                <input type="radio" id="c6" value="c6" name="pregunt6">
+                <label for="c6">c. Manos libres, temperatura, GPS, control de volumen y frenos, odómetro.</label><br>
+            </form>
+            </div>
+            <!--_______FIN DE UNA PREGUNTA_____-->
+            <div id="pregunta7">
+                <h3>7¿Cuál es la forma correcta de comprobar que el vehículo se encuentra en neutro o punto muerto?</h3>
+            <form name="Fpregunta7">
+                <input type="radio" id="a7" value="a7" name="pregunt7">
+                <label for="a7">a. Halar y empujar la palanca de velocidades, hacia atrás y adelante y posicionarla al centro del recorrido.</label><br>
+
+                <input type="radio" id="b7" value="b7" name="pregunt7">
+                <label for="b7">b. Halar la palanca de velocidades, hacia izquierda y derecha y si recorre libre está en el lugar indicado.</label><br>
+
+                <input type="radio" id="c7" value="c7" name="pregunt7">
+                <label for="c7">c. Cualquier forma es igual, la segunda es mejor.</label><br>
+            </form>
+            </div>
+            <!--_______FIN DE UNA PREGUNTA_____-->
+            <div id="pregunta8">
+                <h3>8¿Cuáles de las siguientes afirmaciones son verdaderas en el uso de los frenos, en los vehículos livianos?</h3>
+            <form name="Fpregunta8">
+                <input type="radio" id="a8" value="a8" name="pregunt8">
+                <label for="a8">a. Los frenos ABS tienen impiden que las ruedas se bloqueen al frenar y aseguran una frenada más eficiente.</label><br>
+
+                <input type="radio" id="b8" value="b8" name="pregunt8">
+                <label for="b8">b. El consumo del líquido de frenos depende de la cantidad e intensidad de las frenadas.</label><br>
+
+                <input type="radio" id="c8" value="c8" name="pregunt8">
+                <label for="c8">c. El freno hidráulico bloquea las llantas y permite detenerme en menos espacio.</label><br>
+            </form>
+            </div>
+            <!--_______FIN DE UNA PREGUNTA_____-->
+            <div id="pregunta9">
+                <h3>9¿En qué circunstancias debe utilizar el freno de mano, en un vehículo liviano?</h3>
+            <form name="Fpregunta9">
+                <input type="radio" id="a9" value="a9" name="pregunt9">
+                <label for="a9">a. Al estacionarse en pendiente, Al estacionarse, Al estacionarse en bajada.</label><br>
+
+                <input type="radio" id="b9" value="b9" name="pregunt9">
+                <label for="b7">b. Al esperar en un semáforo, cuando fallan los frenos de servicio.</label><br>
+
+                <input type="radio" id="c9" value="c9" name="pregunt9">
+                <label for="c9">c. Todas las anteriores.</label><br>
+            </form>
+            </div>
+            <!--_______FIN DE UNA PREGUNTA_____-->
+            <div id="pregunta10">
+                <h3>10¿En qué lugar es prohibido utilizar la bocina (pito)?</h3>
+                <form name="Fpregunta10">
+                    <input type="radio" id="a10" value="a10" name="pregunt10">
+                    <label for="a10">a. En hospitales, escuelas, iglesias, servicios funerarios.</label><br>
+
+                    <input type="radio" id="b10" value="b10" name="pregunt10">
+                    <label for="b10">b. En zonas comerciales, iglesias, cementerios.</label><br>
+
+                    <input type="radio" id="c10" value="c10" name="pregunt10">
+                    <label for="c10">c.	En los desfiles patrios, y caminos solitarios.</label><br>
+                </form>
+            </div>
+            <!--_______FIN DE UNA PREGUNTA_____-->
+            <div id="pregunta11">
+                <h3>11¿Cuáles son las tres funciones básicas del aceite?</h3>
+                <form name="Fpregunta11">
+                    <input type="radio" id="a11" value="a11" name="pregunt11">
+                    <label for="a11">a. Limpiar, lubrica y ayuda al enfriamiento.</label><br>
+
+                    <input type="radio" id="b11" value="b11" name="pregunt11">
+                    <label for="b11">b.	Solamente lubrica las piezas del motor.</label><br>
+
+                    <input type="radio" id="c11" value="c11" name="pregunt11">
+                    <label for="c11">c.	Lubrica y auxilia la combustión.</label><br>
+                </form>
+            </div>
+            <!--_______FIN DE UNA PREGUNTA_____-->
+            <div id="pregunta12">
+                <h3>12¿Qué es y Cuál es la función del cinturón de seguridad?</h3>
+                <form name="Fpregunta12">
+                    <input type="radio" id="a12" value="a12" name="pregunt12">
+                    <label for="a12">a.	Un dispositivo de seguridad activa que se usa para evitar multas</label><br>
+
+                    <input type="radio" id="b12" value="b12" name="pregunt12">
+                    <label for="b12">b.	Un elemento de seguridad pasiva que evita que las personas se lesionen en una colisión.</label><br>
+
+                    <input type="radio" id="c12" value="c12" name="pregunt12">
+                    <label for="c12">c.	Es un dispositivo de seguridad que se acciona solo cuando se conduce en carreteras.</label><br>
+                </form>
+            </div>
+            <!--_______FIN DE UNA PREGUNTA_____-->
+            <div id="pregunta13">
+                <h3>13¿Cuál es la función de los espejos retrovisores externos y como deben ajustarse?</h3>
+                <form name="Fpregunta13">
+                    <input type="radio" id="a13" value="a13" name="pregunt13">
+                    <label for="a13">a.	Mirar cuando se va a cambiar de carril, se deben poner lo más abiertos posible para ver mejor y se observan solo en caso necesario.</label><br>
+
+                    <input type="radio" id="b13" value="b13" name="pregunt13">
+                    <label for="b13">b.	Permiten una visión trasera lateral, se ajustan con un punto de referencia del vehículo y se deben revisar al menos cada 30 segundos.</label><br>
+
+                    <input type="radio" id="c13" value="c13" name="pregunt13">
+                    <label for="c13">c.	Sirven para observar a los lados y se deben regular cerrados para observar lo más ceca del vehículo.</label><br>
+                </form>
+            </div>
+            <!--_______FIN DE UNA PREGUNTA_____-->
+            <div id="pregunta14">
+                <h3>14¿Qué espejo retrovisor debo usar primero al cambiar de carril?</h3>
+                <form name="Fpregunta14">
+                    <input type="radio" id="a14" value="a14" name="pregunt14">
+                    <label for="a14">a. Cualquiera, no es importante usar uno u otro.</label><br>
+
+                    <input type="radio" id="b14" value="b14" name="pregunt14">
+                    <label for="b14">b. El interno, es más preciso, los otros son opcionales.</label><br>
+
+                    <input type="radio" id="c14" value="c14" name="pregunt14">
+                    <label for="c14">c. Los externos, proporcionan la presencia más cercana a nuestro vehículo.</label><br>
+                </form>
+            </div>
+            <!--_______FIN DE UNA PREGUNTA_____-->
+            <div id="pregunta15">
+                <h3>15¿Cuál es la posición de las manos que más se sugiere en el uso de las manos al timón?</h3>
+                <form name="Fpregunta15">
+                    <input type="radio" id="a15" value="a15" name="pregunt15">
+                    <label for="a15">a.	La posición 10 – 10 con el método de hale y empuje para evitar cruzar las manos.</label><br>
+
+                    <input type="radio" id="b15" value="b15" name="pregunt15">
+                    <label for="b15">b.	La posición 09 y 15 sobre el eje del timón sobre todo si tiene bolsa de aire.</label><br>
+
+                    <input type="radio" id="c15" value="c15" name="pregunt15">
+                    <label for="c15">c.	Cada quien lo toma como se siente más cómodo eso garantiza pericia en el uso del timón.</label><br>
+                </form>
+            </div>
+            <!--_______FIN DE UNA PREGUNTA_____-->
+            <div id="pregunta16">
+                <h3>16¿Qué debe hacer si estaciona su vehículo en pendiente hacia abajo?</h3>
+                <form name="Fpregunta16">
+                    <input type="radio" id="a16" value="a16" name="pregunt16">
+                    <label for="a16">a. Girar las ruedas delanteras al borde de la acera o cuneta.</label><br>
+
+                    <input type="radio" id="b16" value="b16" name="pregunt16">
+                    <label for="b16">b. Apagar el motor y ubicar el cambio en retroceso.</label><br>
+
+                    <input type="radio" id="c16" value="c16" name="pregunt16">
+                    <label for="c16">c.	Dejar puesto el freno de mano o emergencia.</label><br>
+
+                    <input type="radio" id="d16" value="d16" name="pregunt16">
+                    <label for="d16">d.	Todas las anteriores.</label><br>
+
+                    <input type="radio" id="e16" value="e16" name="pregunt16">
+                    <label for="e16">e.	Ninguna de las anteriores.</label><br>
+                </form>
+            </div>
+            <!--_______FIN DE UNA PREGUNTA_____-->
+            <div id="pregunta17">
+                <h3>17¿Qué debe hacer si estaciona el vehículo en pendiente hacia arriba?</h3>
+                <form name="Fpregunta17">
+                    <input type="radio" id="a17" value="a17" name="pregunt17">
+                    <label for="a17">a.	Girar las ruedas delanteras hacia la izquierda.</label><br>
+
+                    <input type="radio" id="b17" value="b17" name="pregunt17">
+                    <label for="b17">b.	Apagar el motor y ubicar cambio en primera.</label><br>
+
+                    <input type="radio" id="c17" value="c17" name="pregunt17">
+                    <label for="c17">c.	Dejar puesto el freno de mano o emergencia.</label><br>
+
+                    <input type="radio" id="d17" value="d17" name="pregunt17">
+                    <label for="d17">d.	Todas las anteriores.</label><br>
+
+                    <input type="radio" id="e17" value="e17" name="pregunt17">
+                    <label for="e17">e.	Ninguna de las anteriores.</label><br>
+                </form>
+            </div>
+            <!--_______FIN DE UNA PREGUNTA_____-->
+            <div id="pregunta18">
+                <h3>18¿A qué se le llama puntos ciegos o puntos muertos en el vehículo?</h3>
+                <form name="Fpregunta18">
+                    <input type="radio" id="a18" value="a18" name="pregunt18">
+                    <label for="a18">a.	Son los que genera la velocidad y se refiere a los detalles que se nos escapan.</label><br>
+
+                    <input type="radio" id="b18" value="b18" name="pregunt18">
+                    <label for="b18">b.	Son áreas a los lados y atrás del vehículo que no logramos ver con los retrovisores.</label><br>
+
+                    <input type="radio" id="c18" value="c18" name="pregunt18">
+                    <label for="c18">c.	Son los defectos que generan los espejos convencionales, por eso se deben cámaras de retroceso.</label><br>
+                </form>
+            </div>
+            <!--_______FIN DE UNA PREGUNTA_____-->
+            <div id="pregunta19">
+                <h3>19¿Cuál es la forma más segura de frenar a alta velocidades?</h3>
+                <form name="Fpregunta19">
+                    <input type="radio" id="a19" value="a19" name="pregunt19">
+                    <label for="a19">a.	Siempre para frenar y evitar que el vehículo se apague se debe presionar el clucht y después el freno.</label><br>
+
+                    <input type="radio" id="b19" value="b19" name="pregunt19">
+                    <label for="b19">b.	Cuando se va rápido se debe presionar el clucht bajar un cambio y después presionar el freno.</label><br>
+
+                    <input type="radio" id="c19" value="c19" name="pregunt19">
+                    <label for="c19">c.	Aplico el freno suavemente, al percibir reducción de velocidad se presiona el clucht y se aprovecha para bajar un cambio a la vez.</label><br>
+                </form>
+            </div>
+            <!--_______FIN DE UNA PREGUNTA_____-->
+            <div id="pregunta20">
+                <h3>20¿Qué conductas hacen a un buen conductor, de un vehículo liviano?</h3>
+                <form name="Fpregunta20">
+                    <input type="radio" id="a20" value="a20" name="pregunt20">
+                    <label for="a20">a.	Conduce con prudencia y hace todo lo posible por evitar accidentes.</label><br>
+
+                    <input type="radio" id="b20" value="b20" name="pregunt20">
+                    <label for="b20">b.	Es considerado y amable con los demás conductores y con los peatones.</label><br>
+
+                    <input type="radio" id="c20" value="c20" name="pregunt20">
+                    <label for="c20">c.	Respeta la ley de tránsito, es cortes.</label><br>
+
+                    <input type="radio" id="d20" value="d20" name="pregunt20">
+                    <label for="d20">d.	Todas las anteriores.</label><br>
+
+                    <input type="radio" id="e20" value="e20" name="pregunt20">
+                    <label for="e20">e.	Ninguna de las anteriores.</label><br>
+                </form>
+            </div>
+            <!--_______FIN DE UNA PREGUNTA_____-->
+            <div id="pregunta21">
+                <h3>21¿Qué medidas de seguridad se deben adoptar al momento que el vehículo liviano surge desperfecto mecánico que lo imposibilite sacarlo de la viva?</h3>
+                <form name="Fpregunta21">
+                    <input type="radio" id="a21" value="a21" name="pregunt21">
+                    <label for="a21">a.	Activar luces laterales y llamar al mecánico.</label><br>
+
+                    <input type="radio" id="b21" value="b21" name="pregunt21">
+                    <label for="b21">b.	Colocar triángulos detrás y delante del vehículo a 10 metros y luces de emergencia.</label><br>
+
+                    <input type="radio" id="c21" value="c21" name="pregunt21">
+                    <label for="c21">c.	Activar luces delanteras y esperar el rescate.</label><br>
+                </form>
+            </div>
+            <!--_______FIN DE UNA PREGUNTA_____-->
+            <div id="pregunta22">
+                <h3>22¿Qué acciones contribuyen a la seguridad vial de un conductor?</h3>
+                <form name="Fpregunta22">
+                    <input type="radio" id="a22" value="a22" name="pregunt22">
+                    <label for="a22">a.	Respetar el derecho de pase de los peatones.</label><br>
+
+                    <input type="radio" id="b22" value="b22" name="pregunt22">
+                    <label for="b22">b.	Respetar las señales de tránsito.</label><br>
+
+                    <input type="radio" id="c22" value="c22" name="pregunt22">
+                    <label for="c22">c.	No conducir utilizando manualmente teléfonos móviles.</label><br>
+
+                    <input type="radio" id="d22" value="d22" name="pregunt22">
+                    <label for="d22">d.	Todas las anteriores.</label><br>
+
+                    <input type="radio" id="e22" value="e22" name="pregunt22">
+                    <label for="e22">e.	Ninguna de las anteriores.</label><br>
+                </form>
+            </div>
+            <!--_______FIN DE UNA PREGUNTA_____-->
+            <div id="pregunta23">
+                <h3>23¿Qué medidas de seguridad se deben adoptar al cambiar una llanta?</h3>
+                <form name="Fpregunta23">
+                    <input type="radio" id="a23" value="a23" name="pregunt23">
+                    <label for="a23">a.	Motor apagado, vehículo con cambio, freno de mano activado, llantas aseguradas.</label><br>
+
+                    <input type="radio" id="b23" value="b23" name="pregunt23">
+                    <label for="b23">b.	Poner la señalización, ciudad 10 mts al lado de la circulación, carretera 30-50 mts.</label><br>
+
+                    <input type="radio" id="c23" value="c23" name="pregunt23">
+                    <label for="c23">c.	 Trabajar frente a la circulación vehicular.</label><br>
+
+                    <input type="radio" id="d23" value="d23" name="pregunt23">
+                    <label for="d23">d.	Todas las anteriores.</label><br>
+
+                    <input type="radio" id="e23" value="e23" name="pregunt23">
+                    <label for="e23">e.	Ninguna de las anteriores.</label><br>
+                </form>
+            </div>
+            <!--_______FIN DE UNA PREGUNTA_____-->
+            <div id="pregunta24">
+                <h3>24¿Qué tipos de zapatos son adecuados para conducir, en el uso de los pedales?</h3>
+                <form name="Fpregunta24">
+                    <input type="radio" id="a24" value="a24" name="pregunt24">
+                    <label for="a24">a.	Chinelas, sandalias, evitar tacones.</label><br>
+
+                    <input type="radio" id="b24" value="b24" name="pregunt24">
+                    <label for="b24">b.	Zapatos de tacones altos, zapatos de vaquetas, tenis.</label><br>
+
+                    <input type="radio" id="c24" value="c24" name="pregunt24">
+                    <label for="c24">c.	No existe un zapato específico, todo depende de las habilidades de la persona.</label><br>
+
+                </form>
+            </div>
+            <!--_______FIN DE UNA PREGUNTA_____-->
+            <div id="pregunta25">
+                <h3>25¿Qué debe hacer para ayudar a controlar la velocidad de su vehículo cuando desciende una pendiente prolongada?</h3>
+                <form name="Fpregunta25">
+                    <input type="radio" id="a25" value="a25" name="pregunt25">
+                    <label for="a25">a.	Sujetar el timón firmemente.</label><br>
+
+                    <input type="radio" id="b25" value="b25" name="pregunt25">
+                    <label for="b25">b.	Utilizar freno y cambio bajo.</label><br>
+
+                    <input type="radio" id="c25" value="c25" name="pregunt25">
+                    <label for="c25">c.	Seleccionar neutro.</label><br>
+                </form>
+            </div>
+            <!--_______FIN DE UNA PREGUNTA_____-->
+            <div id="pregunta26">
+                <h3>26¿Qué debería hacer usted cuando las ruedas traseras de su vehículo resbalan hacia la izquierda?</h3>
+            <form name="Fpregunta26">
+                <input type="radio" id="a26" value="a26" name="pregunt26">
+                <label for="a26">a.	Girar suavemente el timón hacia la izquierda para retomar la dirección.</label><br>
+
+                <input type="radio" id="b26" value="b26" name="pregunt26">
+                <label for="b26">b.	Usar el embrague y frenar firmemente.</label><br>
+
+                <input type="radio" id="c26" value="c26" name="pregunt26">
+                <label for="c26">c.	Girar hacia la derecha.</label><br>
+            </form>
+            </div>
+            <!--_______FIN DE UNA PREGUNTA_____-->
+            <div id="pregunta27">
+                <h3>27¿Qué debería hacer usted para corregir un coletazo de las ruedas traseras?</h3>
+                <form name="Fpregunta27">
+                    <input type="radio" id="a27" value="a27" name="pregunt27">
+                    <label for="a27">a.	No girar el volante del vehículo para nada.</label><br>
+
+                    <input type="radio" id="b27" value="b27" name="pregunt27">
+                    <label for="b27">b.	Girar el volante hacia el lado opuesto al coletazo.</label><br>
+
+                    <input type="radio" id="c27" value="c27" name="pregunt27">
+                    <label for="c27">c.	Girar el volante hacia el lado que se desplaza la cola del vehículo.</label><br>
+                </form>
+            </div>
+            <!--_______FIN DE UNA PREGUNTA_____-->
+            <div id="pregunta28">
+                <h3>28¿En qué afecta la visión conducir a exceso de velocidad?</h3>
+                <form name="Fpregunta28">
+                    <input type="radio" id="a28" value="a28" name="pregunt28">
+                    <label for="a28">a.	A la mayoría de los conductores se les casa la vista después de conducir más o menos media hora.</label><br>
+
+                    <input type="radio" id="b28" value="b28" name="pregunt28">
+                    <label for="b28">b.	El campo visual se reduce.</label><br>
+
+                    <input type="radio" id="c28" value="c28" name="pregunt28">
+                    <label for="c28">c.	Resulta más fácil percibir movimientos en la carretera.</label><br>
+                </form>
+            </div>
+            <!--_______FIN DE UNA PREGUNTA_____-->
+            <div id="pregunta29">
+                <h3>29¿Cuáles son los síntomas más comunes del cansancio?</h3>
+                <form name="Fpregunta29">
+                    <input type="radio" id="a29" value="a29" name="pregunt29">
+                    <label for="a29">a.	Calor y agresividad.</label><br>
+
+                    <input type="radio" id="b29" value="b29" name="pregunt29">
+                    <label for="b29">b.	Dificultad para mantener la dirección.</label><br>
+
+                    <input type="radio" id="c29" value="c29" name="pregunt29">
+                    <label for="c29">c.	Los parpados se cierran.</label><br>
+
+                    <input type="radio" id="d29" value="d29" name="pregunt29">
+                    <label for="d29">d.	Todas las anteriores.</label><br>
+
+                    <input type="radio" id="e29" value="e29" name="pregunt29">
+                    <label for="e29">e.	Ninguna de las anteriores.</label><br>
+                </form>
+            </div>
+            <!--_______FIN DE UNA PREGUNTA_____-->
+            <div id="pregunta30">
+                <h3>30¿Qué debería hacer usted ante un conductor agresivo o temerario?</h3>
+                <form name="Fpregunta30">
+                    <input type="radio" id="a30" value="a30" name="pregunt30">
+                    <label for="a30">a.	Hacerle saber cómo se siente.</label><br>
+
+                    <input type="radio" id="b30" value="b30" name="pregunt30">
+                    <label for="b30">b.	Encender y apagar sus luces delanteras repetidamente.</label><br>
+
+                    <input type="radio" id="c30" value="c30" name="pregunt30">
+                    <label for="c30">c.	No reaccionar a la provocación.</label><br>
+                </form>
+            </div>
+            <!--_______FIN DE UNA PREGUNTA_____-->
+            <div id="pregunta31">
+                <h3>31¿Qué debería hacer usted, cuando es cegado por luces de otro vehículo que viene en sentido contrario?</h3>
+                <form name="Fpregunta31">
+                    <input type="radio" id="a31" value="a31" name="pregunt31">
+                    <label for="a31">a.	Observar fijamente las luces.</label><br>
+
+                    <input type="radio" id="b31" value="b31" name="pregunt31">
+                    <label for="b31">b.	Acelerar para pasar rápido la situación.</label><br>
+
+                    <input type="radio" id="c31" value="c31" name="pregunt31">
+                    <label for="c31">c.	Disminuir la velocidad hasta detenerse si la ceguera fue total.</label><br>
+                </form>
+            </div>
+            <!--_______FIN DE UNA PREGUNTA_____-->
+            <div id="pregunta32">
+                <h3>32¿Qué debería hacer usted, cuando el vehículo que viene en sentido contrario le invade el carril?</h3>
+                <form name="Fpregunta32">
+                    <input type="radio" id="a32" value="a32" name="pregunt32">
+                    <label for="a32">a.	Bajar la velocidad y hacerse a la derecha lo más pronto posible, si es posible salirse de la vía.</label><br>
+
+                    <input type="radio" id="b32" value="b32" name="pregunt32">
+                    <label for="b32">b.	Hacerme en el carril de él para evitar chocar de frente.</label><br>
+
+                    <input type="radio" id="c32" value="c32" name="pregunt32">
+                    <label for="c32">c.	Alertar realizando cambio de luces.</label><br>
+                </form>
+            </div>
+            <!--_______FIN DE UNA PREGUNTA_____-->
+            <div id="pregunta33">
+                <h3>33 Las personas civiles (abanderados), que regulan el paso vehicular en zonas donde se realizan obras se consideran como:</h3>
+                <form name="Fpregunta33">
+                    <input type="radio" id="a33" value="a33" name="pregunt33">
+                    <label for="a33">a.	Reguladores de tránsito.</label><br>
+
+                    <input type="radio" id="b33" value="b33" name="pregunt33">
+                    <label for="b33">b.	Inspectores de obras.</label><br>
+
+                    <input type="radio" id="c33" value="c33" name="pregunt33">
+                    <label for="c33">c.	Constructores.</label><br>
+                </form>
+            </div>
+            <!--_______FIN DE UNA PREGUNTA_____-->
+            <div id="pregunta34">
+                <h3>34 La regulación vial y el control de documentos del vehículo y del conductor, le corresponde a:</h3>
+            <form name="Fpregunta34">
+                <input type="radio" id="a34" value="a34" name="pregunt34">
+                <label for="a34">a.	Seguridad pública.</label><br>
+
+                <input type="radio" id="b34" value="b34" name="pregunt34">
+                <label for="b34">b.	Agente de tránsito.</label><br>
+
+                <input type="radio" id="c34" value="c34" name="pregunt34">
+                <label for="c34">c.	Todas las anteriores.</label><br>
+            </form>
+            </div>
+            <!--_______FIN DE UNA PREGUNTA_____-->
+            <div id="pregunta35">
+                <h3>35 ¿Cuándo es más probable que usted pierda concentración al conducir?</h3>
+                <form name="Fpregunta35">
+                    <input type="radio" id="a35" value="a35" name="pregunt35">
+                    <label for="a35">a.	Cuando saluda a otros usuarios de la vía.</label><br>
+
+                    <input type="radio" id="b35" value="b35" name="pregunt35">
+                    <label for="b35">b.	Cuando viaja solo a altas horas de la noche.</label><br>
+
+                    <input type="radio" id="c35" value="c35" name="pregunt35">
+                    <label for="c35">c.	Cuando utiliza un teléfono celular.</label><br>
+                </form>
+            </div>
+            <!--_______FIN DE UNA PREGUNTA_____-->
+            <div id="pregunta36">
+                <h3>36 ¿Cuándo los conductores de vehículos deben ceder el paso a los conductores de buses?</h3>
+                <form name="Fpregunta36">
+                    <input type="radio" id="a36" value="a36" name="pregunt36">
+                    <label for="a36">a.	Cuando salen de la bahía.</label><br>
+
+                    <input type="radio" id="b36" value="b36" name="pregunt36">
+                    <label for="b36">b.	Siempre que vallan circulando por la vía.</label><br>
+
+                    <input type="radio" id="c36" value="c36" name="pregunt36">
+                    <label for="c36">c.	Cuando cursan las intersecciones.</label><br>
+                </form>
+            </div>
+            <!--_______FIN DE UNA PREGUNTA_____-->
+            <div id="pregunta37">
+                <h3>37 ¿Qué debe tener usted especial cuidado con los motociclistas?</h3>
+                <form name="Fpregunta37">
+                    <input type="radio" id="a37" value="a37" name="pregunt37">
+                    <label for="a37">a.	Todo el tiempo.</label><br>
+
+                    <input type="radio" id="b37" value="b37" name="pregunt37">
+                    <label for="b37">b.	Cuando circulan sin casco.</label><br>
+
+                    <input type="radio" id="c37" value="c37" name="pregunt37">
+                    <label for="c37">c.	Cuando viajan dos en la moto.</label><br>
+                </form>
+            </div>
+            <!--_______FIN DE UNA PREGUNTA_____-->
+            <div id="pregunta38">
+                <h3>38 ¿Qué debe hacer usted cuando un ciclista va adelante, y los dos van a girar a la derecha?</h3>
+                <form name="Fpregunta38">
+                    <input type="radio" id="a38" value="a38" name="pregunt38">
+                    <label for="a38">a.	Adelantar al ciclista antes del cruce.</label><br>
+
+                    <input type="radio" id="b38" value="b38" name="pregunt38">
+                    <label for="b38">b.	Rodea al ciclista en el cruce.</label><br>
+
+                    <input type="radio" id="c38" value="c38" name="pregunt38">
+                    <label for="c38">c.	Se mantiene detrás del ciclista hasta que éste haya girado.</label><br>
+                </form>
+            </div>
+            <!--_______FIN DE UNA PREGUNTA_____-->
+            <div id="pregunta39">
+                <h3>39 ¿Cuáles son las medidas de seguridad, que debe incrementar en un lugar por donde transitan carretas o carretones?</h3>
+                <form name="Fpregunta39">
+                    <input type="radio" id="a39" value="a39" name="pregunt39">
+                    <label for="a39">a.	Conducir a velocidad baja, e ir atento en la conducción</label><br>
+
+                    <input type="radio" id="b39" value="b39" name="pregunt39">
+                    <label for="b39">b.	Acelerar para pasar rápido.</label><br>
+
+                    <input type="radio" id="c39" value="c39" name="pregunt39">
+                    <label for="c39">c.	Pitar para que se aparten.</label><br>
+                </form>
+            </div>
+            <!--_______FIN DE UNA PREGUNTA_____-->
+            <div id="pregunta40">
+                <h3>40¿En qué circunstancia usted detendría su vehículo sobre el paso peatonal?</h3>
+                <form name="Fpregunta40">
+                    <input type="radio" id="a40" value="a40" name="pregunt40">
+                    <label for="a40">a.	Cuando no hay peatones esperando para cruzar.</label><br>
+
+                    <input type="radio" id="b40" value="b40" name="pregunt40">
+                    <label for="b40">b.	Durante la noche.</label><br>
+
+                    <input type="radio" id="c40" value="c40" name="pregunt40">
+                    <label for="c40">c.	Cuando ello sea necesario para evitar un accidente.</label><br>
+                </form>
+            </div>
+            <!--_______FIN DE UNA PREGUNTA_____-->     
+        </div><!--******FIN DE LAS PREGUNTAS*********-->
+        
+        <aside></aside>
+        <footer></footer>
+    </div>
+</body>
+</html>
