@@ -56,6 +56,35 @@
    {
        width: 100%;
    }
+   header label
+   {
+       display: block;
+   }
+   .menu
+   {
+       position: absolute;
+       background-color: #f1e26ddf;
+       width: 70%;
+       margin-left: -70%;
+       transition: all 500ms;
+   }
+   .menu ul
+   {
+       flex-direction: column;
+   }
+   .menu li
+   {
+       border-top: 1px solid #fff;
+   }
+   .menu ul li a
+   {
+       color: black;
+       text-align: center;
+   }
+   #btn-menu:checked ~ .menu
+   {
+       margin: 0;
+   }
    
 }
 @media (max-width:390px)
