@@ -1,0 +1,74 @@
+header
+{
+    width: 100%;
+}
+
+#btn-menu
+{
+    display: none;
+}
+
+header label
+{
+    display: none;
+    width: 30px;
+    height: 30px;
+    padding: 10px;   
+    border-right: 1px solid #ffffff;
+}
+header label img
+{
+    width: 30px;
+    height: 30px;
+}
+
+.menu ul{
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+}
+
+.menu li a 
+{
+    display: block;
+    padding: 15px 20px;
+    font-size: 20px;
+    color: black;/*#fff;*/
+    text-decoration: none;
+}
+
+.menu li:hover
+{
+    background: rgba(0, 0, 0, 0.3);
+}
+
+@media (max-width:768px)
+{
+    header label
+    {
+        display: block;
+    }
+    .menu
+    {
+        position: absolute;
+        background-color: #f1e26ddf;
+        width: 70%;
+        margin-left: -70%;
+        transition: all 0.5s;
+    }
+    .menu ul{
+        flex-direction: column;
+    }
+
+    .menu li
+    {
+        border-top: 1px solid #fff;
+    }
+
+    #btn-menu:checked ~ .menu
+    {
+        margin:0;
+    }
+}
