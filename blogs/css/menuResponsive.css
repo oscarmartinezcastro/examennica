@@ -53,9 +53,10 @@ header label img
     .menu
     {
         position: absolute;
-        background-color: #f1e26ddf;
+        z-index: 100;
+        background-color: rgba(43, 54, 218, 0.5);
         width: 70%;
-        margin-left: -70%;
+        margin-left: -80%;
         transition: all 0.5s;
     }
     .menu ul{
@@ -65,6 +66,13 @@ header label img
     .menu li
     {
         border-top: 1px solid #fff;
+    }
+
+    .menu ul li a
+    {
+        color: #ffffff;
+        text-align: center;
+        font-weight: bolder;
     }
 
     #btn-menu:checked ~ .menu

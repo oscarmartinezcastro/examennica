@@ -63,7 +63,7 @@
    .menu
    {
        position: absolute;
-       background-color: #f1e26ddf;
+       background-color: rgba(43, 54, 218, 0.5);
        width: 70%;
        margin-left: -70%;
        transition: all 500ms;
@@ -78,7 +78,8 @@
    }
    .menu ul li a
    {
-       color: black;
+       color: #fff;
+       font-weight: bolder;
        text-align: center;
    }
    #btn-menu:checked ~ .menu

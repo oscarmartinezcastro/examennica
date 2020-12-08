@@ -29,6 +29,7 @@ h1
 {
     display: block;
     position: absolute;
+    margin: auto;
     color: #fff;
     text-shadow: 0px 0px 15px black;
     text-align: center;
@@ -39,6 +40,32 @@ h1
 
 #articulo
 {
-    width: 90%;
+    width: 70%;
     margin: auto;
+    margin-top: 50px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: justify;
+    letter-spacing: 1px;
+    line-height: 35px;
+}
+
+#articulo img
+{
+    display: block;
+    margin: 0 auto;
+}
+/* ----------------------Footer----------------------*/
+#footer
+{
+    width: 100%;
+    min-height: 100px;
+    background-color: #2B36DA;
+}
+/* ----------------------Responsive----------------------*/
+@media (max-width:768px)
+{
+    #articulo img
+    {
+        width: 80%;
+    }
 }
