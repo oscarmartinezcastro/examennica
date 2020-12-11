@@ -8,7 +8,7 @@
 
 #banner
 {
-    width: 100%;
+    width: 90%;
     height: 100px;
     background-color: rgba(0, 0, 0, 0.1);
     line-height: 90px;
@@ -25,6 +25,8 @@
 
 .article
 {
+    display: block;
+    float: left;
     width: 290px;
     height: 500px;
     border-radius: 10px;
@@ -99,4 +101,17 @@
     text-decoration: none;
     color: white;
     font-family: sans-serif;
+}
+
+/*---------------Responsive---------------------*/
+@media(max-width:300px)
+{
+    #contenedor
+    {
+        width: 60%;
+    }
+    #banner
+    {
+        width: 60%;
+    }   
 }
