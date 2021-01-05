@@ -439,7 +439,7 @@ footer
 footer h5
 {
     display: block;
-    background: url('../img/pxgray.png'), white;
+    /*background: url('../img/pxgray.png'), white;*/
     min-height: 50px;
     width: 85%;
     letter-spacing: 3px;
@@ -447,7 +447,7 @@ footer h5
     font-family: "BebasNeue";
     font-size: 35px;
     line-height: 55px;
-    color: blue;
+    color: white;
     border-radius: 5px;
     margin-bottom: 15px;
     margin-top: 20px;
