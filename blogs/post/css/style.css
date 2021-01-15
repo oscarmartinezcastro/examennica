@@ -66,6 +66,14 @@ h1
 {
     #articulo img
     {
-        width: 80%;
+        width: 98%;
+    }
+    h1
+    {
+        margin-left: 15px;
+    }
+    p
+    {
+        font-size: 12px;
     }
 }
