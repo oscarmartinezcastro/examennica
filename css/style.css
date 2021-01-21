@@ -499,3 +499,15 @@ footer .footercolum p
     color: white;
     text-align: center;
 }
+
+footer .footercolum
+{
+    text-align: center;
+}
+
+footer .footercolum .menuFooter
+{
+    color: white;
+    list-style: none;
+    text-decoration: none;
+}
