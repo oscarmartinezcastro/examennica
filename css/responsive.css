@@ -65,6 +65,8 @@
        position: absolute;
        background-color: rgba(43, 54, 218, 0.5);
        width: 70%;
+       width: 140px;
+       height: 250px;
        margin-left: -70%;
        transition: all 500ms;
    }
@@ -92,7 +94,7 @@
 {
     #imagenPrin h1
    {
-    font-size: 19px;
+       font-size: 19px;
    }
    #logoimg
    {

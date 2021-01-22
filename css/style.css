@@ -48,22 +48,18 @@ body
     margin: 0px auto;
     margin: 0px;
     padding: 0px;
-    background: url("../img/manejando.png") no-repeat center center fixed;/*../img/manejando.png*/
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+    
 }
 
 /*Trabajo el menú*/
-#menu
+.menu
 {
     display: block;
     border: 1px solid #ccc;
     width: 100%;
-    height: 110px;
+    height: 80px;
     text-align: center;
-    background:#f1e26ddf;/*:#EFDD51;*/
+    background: white;/*:#EFDD51;*/
     position: static;
     z-index: auto;
 }
@@ -110,6 +106,8 @@ header label:hover
 
 .menu ul
 {
+    display: block;
+    float: left;
     margin: 0;
     list-style: none;
     padding: 0;
@@ -121,15 +119,17 @@ header label:hover
 .menu li a
 {
     display: block;
+    font-family: sans-serif;
     padding: 15px 20px;
     font-size: 20px;
-    color: #fff;
+    color:rgb(119, 112, 112);
     text-decoration: none;
     transition: all 500ms;
 }
 
 .menu li a:hover
 {
+    color: white;
     background: rgba(0, 0, 0, 0.3);
 }
 
@@ -142,8 +142,8 @@ header label:hover
 #logoimg
 {
     float: left;
-    width: 4%;
-    height: 4%;
+    width: 28px;/*4%;*/
+    height: 40px;/*4%;*/
     margin: 15px;
     box-shadow: 6px 6px 2px gray;
 }
@@ -261,18 +261,20 @@ header label:hover
 #imagenPrin
 {
     width: 100%;
-    min-height: 300px;
+    min-height: 550px;
     background-color: #ccc;
-    background: url("../img/manejando.png") no-repeat center center fixed;/*../img/manejando.png*/
-    -webkit-background-size: cover;
+    background: url("../img/manejando.jpg") no-repeat center center /*fixed;/*../img/manejando.png*/
+    /*-webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover;
-    
+    background-size: cover;    
+    */
 }
 
 .logoG, .logoF
 {
+    display: block;
+    float: left;
     color: blue;
     text-shadow: 0px 0px 4px gray;
     font-weight: 900;
@@ -286,6 +288,12 @@ header label:hover
 .blanco
 {
     color: white;
+}
+h1
+{
+    font-family: sans-serif;
+    font-size: 34px;
+    margin-top: 23px;
 }
 /*
 //elimino el fondo
