@@ -30,13 +30,25 @@
         <header>
             <input type="checkbox" id="btn-menu">
             <label for="btn-menu"><img src="../img/menuHamburguesa.png" alt=""></label>
+            <div id="logo">
+                <img src="../img/EN-min.jpeg" alt="logo" id="logoimg">
+            </div>
+            <h2><span class="logoG">Examen</span> <span class="logoF">Nica</span></h2>
             <nav class="menu"><!--id="menu"-->
                 <ul>
                     <li>
                         <a href="../index.html">Inicio</a>
                     </li>
                     <li>
-                        <a href="blogs.html">Blog</a>
+                        <a href="#">Blog</a>
+                        <ul>
+                            <li>
+                                <a href="blogs.html">Automóvil</a>
+                            </li>
+                            <li>
+                                <a href="#">Motos</a>
+                            </li>
+                        </ul>
                     </li>
                     <li>
                         <a href="#cuerpo">Examenes</a>
@@ -49,12 +61,12 @@
         </header>
         <!--Aqui fin del Menú-->
         <div id="banner">
-            <h1>Categoría: Blog</h1>
+            <h1>Categoría: Blog Automóvil</h1>
         </div>
         <div id="post">
             <div class="article">
                 <div class="imagen"><img src="img/carroRapido-min.PNG" alt="carro mas rapido"></div>
-                <div class="titulo"><h3>Diez cosas para que tu carro corra más rápido</h3></div>
+                <div class="titulo"><h3>10 cosas que puedes hacer para que tu carro corra más rápido</h3></div>
                 <div class="descripcion"><p>En algún momento, cualquiera que ha tenido la idea. ¿Cómo puedo hacer que esta lata de sardinas corras más rápido?</p></div>
                 <div class="leerMas"><a href="post/Que_hace_que_un_automovil_vaya_rapido.html">Leer más</a></div>
             </div><!--Aqui fin de un post-->
@@ -65,16 +77,16 @@
                 <div class="leerMas"><a href="post/EliminarOlorACigarrillo.html">Leer más</a></div>
             </div><!--Aqui fin de un post-->
             <div class="article">
-                <div class="imagen"><img src="post/comoalargarlavidadetubatería/uno-min.jpg" alt=""></div>
+                <div class="imagen"><img src="post/comoalargarlavidadetubateria/uno-min.jpg" alt=""></div>
                 <div class="titulo"><h3>Como alargar la vida de tu batería</h3></div>
                 <div class="descripcion"><p>Cuando hablamos de la batería de tu carro, lo único de lo que puedes estar seguro es que tarde o temprano se agotará...</p></div>
-                <div class="leerMas"><a href="post/comoalargarlavidadetubatería.html">Leer más</a></div>
+                <div class="leerMas"><a href="post/comoalargarlavidadetubateria.html">Leer más</a></div>
             </div><!--Aqui fin de un post-->
             <div class="article">
-                <div class="imagen"><img src="post/causasdecorrosiónenlasbateriasdecarro/uno-min.jpg" alt=""></div>
+                <div class="imagen"><img src="post/causasdecorrosionenlasbateriasdecarro/uno-min.jpg" alt=""></div>
                 <div class="titulo"><h3>Causas de corrosión en las baterías de carro</h3></div>
                 <div class="descripcion"><p>Si alguna vez arrancaste un automóvil, reemplazaste una batería de carro vieja o echaste un vistazo al compartimiento del motor de tu automóvil...</p></div>
-                <div class="leerMas"><a href="post/causasdecorrosiónenlasbateriasdecarro.html">Leer más</a></div>
+                <div class="leerMas"><a href="post/causasdecorrosionenlasbateriasdecarro.html">Leer más</a></div>
             </div><!--Aqui fin de un post-->
             <div class="article">
                 <div class="imagen"><img src="img/cuatro-min.jpg" alt=""></div>
@@ -108,7 +120,59 @@
             </div><!--Aqui fin de un post-->
         </div>
         <aside></aside>
-        <footer></footer>
+        <div class="clearfix"></div> 
+        <footer>
+            <div class="footercolum">
+                <h5><span class="logoG blanco">Vial</span> <span class="logoF blanco">Nica</span></h5>
+                <p>
+                    "La comunidad automotriz más grande de Nicaragua"
+                </p>
+            </div>
+            <div class="footercolum">
+                <h5>Contacte con nosotros.</h5><br>
+                
+                <p class="icon-correo">
+                    
+                    informacion@examennica.com
+                </p>
+                <p class="icon-correo">
+                    marketing@examennica.com
+                </p>
+                <br>
+                <p class="icon-phone">
+                   7751-7613 
+                </p>  
+            </div>
+            <div class="footercolum">
+                
+                <h5>Menú </h5>
+               
+                <!--Menu -->
+            
+                    <ul>
+                        <li>
+                            <a href="index.html" class="menuFooter">Inicio</a>
+                        </li>
+                        <li>
+                            <a href="blogs/blogs.html" class="menuFooter">Blog</a>
+                        </li>
+                        <li>
+                            <a href="#cuerpo" class="menuFooter">Examenes</a>
+                        </li>
+                        <li>
+                            <a href="#" class="menuFooter">Contacto</a>
+                        </li>
+                    </ul>
+                
+                <h5>Redes</h5>
+                <div class="iconos-redes">
+                    <dir class="icon-facebook izquierdoso"></dir>
+                    <div class="icon-youtube izquierdoso"></div>
+                    <div class="icon-twitter izquierdoso"></div>
+                </div>
+                
+            </div>
+        </footer>
     </div>
 </body>
 </html>

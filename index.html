@@ -42,7 +42,7 @@
 <body>
     <div id="contenedor">
         <header>
-            <div>
+            <div id="menuEIcono">
                 <input type="checkbox" id="btn-menu">
                 <label for="btn-menu"><img src="img/menuHamburguesa-min.png" alt=""></label>
                 <div id="logo">
@@ -55,7 +55,15 @@
                             <a href="index.html">Inicio</a>
                         </li>
                         <li>
-                            <a href="blogs/blogs.html">Blog</a>
+                            <a href="#">Blog</a> 
+                            <ul>
+                                <li>
+                                    <a href="blogs/blogs.html">Automóvil</a>
+                                </li>
+                                <li>
+                                    <a href="#">Motos</a>
+                                </li>
+                            </ul>
                         </li>
                         <li>
                             <a href="#cuerpo">Examenes</a>
@@ -67,15 +75,35 @@
                 </nav>
             </div>
         </header>
-            <div class="clearfix"></div>    
+      <div class="clearfix"></div>    
         <div id="imagenPrin"><!--En el background esta la imagen -->
-            
-            
-            
-
+            <div id="infoTitulo">
+                <p id="titulo">La comunidad web más apasionada del mundo automotriz.</p>
+            </div>
         </div><!--FIN En el background esta la imagen-->
-        
+        <h4 id="h4post">Publicaciones más recientes.</h4>
+        <div id="post"><!--post-->
+            <div class="article">
+                <div class="imagen"><img src="blogs/img/cuatro-min.jpg" alt=""></div>
+                <div class="titulo"><h3>Guía paso a paso para evaluar un auto usado</h3></div>
+                <!--<div class="descripcion"><p>Comprar un automóvil usado suele ser una experiencia bastante estresante. El miedo a ser estafado puede ser bastante abrumador.</p></div>-->
+                <div class="leerMas"><a href="blogs/post/GuiaasoaPasoParaEvaluarUnAutoUsado.html">Leer artículo</a></div>
+            </div><!--Aqui fin de un post-->
+            <div class="article">
+                <div class="imagen"><img src="blogs/img/cinco-min.jpg" alt=""></div>
+                <div class="titulo"><h3>12 tips para mantener tu carro limpio</h3></div>
+                <!--<div class="descripcion"><p>Uno de los problemas más difíciles que sufren la mayoría de los propietarios de automóviles es averiguar cómo mantener su vehículo limpio</p></div>-->
+                <div class="leerMas"><a href="blogs/post/12TipsParaMantenerTuCarroLimpio.html">Leer artículo</a></div>
+            </div><!--Aqui fin de un post-->
+            <div class="article">
+                <div class="imagen"><img src="blogs/img/tresss.jpg" alt=""></div>
+                <div class="titulo"><h3>10 métodos ingeniosos para ahorrar gasolina</h3></div>
+                <!--<div class="descripcion"><p>Algunos de los factores más influyentes que afectan la eficiencia de combustible de un vehículo dependen de cosas como...</p></div>-->
+                <div class="leerMas"><a href="blogs/post/10MetodosIngeniososParaAhorrarGasolina.html">Leer artículo</a></div>
+            </div><!--Aqui fin de un post-->
+        </div><!--Fin de los post-->
         <div id="cuerpo">
+
             <div class="card card1 animado" style="width: 18rem;">
                 <div class="cardImg">
                     <img src="img/ley431-min.png" class="card-img-top" alt="Ley431">
@@ -159,7 +187,19 @@
         <div id="videoexplicativo">
             <iframe class="animado" id="video1" width="560" height="315" src="https://www.youtube.com/embed/6gsBnIbXgdg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
-        <aside id="aside"></aside>
+        <aside id="aside">
+            <h3 id="coPatrocinan">Copatrocinan:</h3>
+            <img class="anuncio" src="img/copatrocinan/Escuela la amistad.png" alt="">
+            <img class="anuncio" src="img/copatrocinan/suspiros.jpg" alt="">
+            <img class="anuncio" src="blogs/img/AnunciateConNosotros.gif" alt="">
+            <img class="anuncio" src="blogs/img/AnunciateConNosotros.gif" alt="">
+            <img class="anuncio" src="blogs/img/AnunciateConNosotros.gif" alt="">
+            <img class="anuncio" src="blogs/img/AnunciateConNosotros.gif" alt="">
+            <img class="anuncio" src="blogs/img/AnunciateConNosotros.gif" alt="">
+            <img class="anuncio" src="blogs/img/AnunciateConNosotros.gif" alt="">
+            <img class="anuncio" src="blogs/img/AnunciateConNosotros.gif" alt="">
+            <img class="anuncio" src="blogs/img/AnunciateConNosotros.gif" alt="">
+        </aside>
         <footer>
             <div class="footercolum">
                 <h5><span class="logoG blanco">Vial</span> <span class="logoF blanco">Nica</span></h5>

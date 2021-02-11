@@ -12,6 +12,35 @@
     position: relative;
     background-color: rgba(0, 0, 0, 0.3);
 }
+
+#logoimg
+{
+    float: left;
+    width: 28px;/*4%;*/
+    height: 40px;/*4%;*/
+    margin: 15px;
+    box-shadow: 6px 6px 2px gray;
+}
+
+.logoG, .logoF
+{
+    display: block;
+    float: left;
+    color: blue;
+    text-shadow: 0px 0px 4px gray;
+    font-weight: 900;
+}
+.logoF
+{
+    font-weight: 100;
+}
+h2
+{
+
+    font-family: sans-serif;
+    font-size: 34px;
+    margin-top: 23px;
+}
  
 #container > #baner
 {
@@ -40,19 +69,44 @@ h1
 
 #articulo
 {
+    display: block;
+    float: left;
     width: 70%;
-    margin: auto;
     margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 20px;
     font-family: 'Montserrat', sans-serif;
     text-align: justify;
     letter-spacing: 1px;
     line-height: 35px;
 }
 
+
 #articulo img
 {
     display: block;
     margin: 0 auto;
+}
+
+.subirInicio
+{
+    height: 30px;
+    width: 60px;
+    border: 1px #030641 solid;
+    background-color: #2B36DA;
+    text-align: center;
+    font-size: 40px;
+    border-radius: 5px;
+    margin: 20px;
+}
+.subirInicio a
+{
+    display: block;
+    height: 30px;
+    width: 60px;
+    color: white;
+{
 }
 /* ----------------------Footer----------------------*/
 #footer
@@ -64,9 +118,14 @@ h1
 /* ----------------------Responsive----------------------*/
 @media (max-width:768px)
 {
-    #articulo img
+    #articulo
     {
         width: 98%;
+    }
+    #articulo img
+    {
+        display: block;
+        width: 80%;
     }
     h1
     {

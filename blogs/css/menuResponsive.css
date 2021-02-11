@@ -21,7 +21,7 @@ header label img
     width: 30px;
     height: 30px;
 }
-
+/****************************************************
 .menu ul{
     margin: 0;
     list-style: none;
@@ -35,7 +35,7 @@ header label img
     display: block;
     padding: 15px 20px;
     font-size: 20px;
-    color: black;/*#fff;*/
+    color: black;
     text-decoration: none;
 }
 
@@ -43,6 +43,76 @@ header label img
 {
     background: rgba(0, 0, 0, 0.3);
 }
+*/
+.menu ul
+{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    text-decoration: none;
+    margin: 0px auto;
+}
+
+.menu > ul > li
+{
+    line-height: 40px;
+    float: left;
+    transition: all 300ms;
+}
+
+.menu > ul > li a
+{
+    display: block;
+    font-family: sans-serif;
+    padding: 15px 20px;
+    font-size: 20px;
+    color:rgb(119, 112, 112);
+    text-decoration: none;
+}
+
+.menu > ul > li:hover
+{
+    color: white;
+    background: rgba(0, 0, 0, 0.3);
+}
+
+/***********************Menu desplegable**************************************/
+
+.menu > ul > li > ul
+{
+    display: none;
+    position: absolute;
+    text-align: left;
+    width: 160px;
+    box-shadow: 0px 2px 4px gray;
+    z-index: 2;
+}
+
+.menu > ul > li:hover > ul
+{
+    display: block;
+}
+
+.menu > ul > li:hover > ul > li
+{
+    background-color: #f2f1f0;
+    border-bottom: 1px solid #d6d6d6;
+    padding: 8px;
+    line-height: 25px;
+    font-size: 13px;
+    transition: all 300ms;
+}
+
+.menu > ul > li:hover > ul > li > a
+{
+    color: #666666;
+}
+
+.menu > ul > li:hover > ul > li:hover
+{
+    box-shadow: 0px 0px 6px #cccccc inset;
+}
+/************************************************************/
 
 @media (max-width:768px)
 {

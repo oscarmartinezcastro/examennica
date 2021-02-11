@@ -35,6 +35,12 @@
 }
 @media (max-width:740px)
 {
+    #imagenPrin
+    {
+        width: 100%;
+        background-size: 230%;
+        margin-top: -100px;
+    }
     #imagenPrin h1
     {
         width: 90%;
@@ -48,7 +54,12 @@
    {
        width: 44px;
    }
-    #videoexplicativo
+   #titulo
+   {
+       display: none;
+   }
+   
+   #videoexplicativo
    {
        width: 100%;
    }
@@ -104,6 +115,7 @@
    {
        width: 100%;
    }
+   
    #video1
    {
        width: 100%;

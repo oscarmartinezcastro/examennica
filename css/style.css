@@ -54,12 +54,11 @@ body
 /*Trabajo el menú*/
 .menu
 {
-    display: block;
-    border: 1px solid #ccc;
+    display: flex;
     width: 100%;
     height: 80px;
     text-align: center;
-    background: white;/*:#EFDD51;*/
+    background: white;
     position: static;
     z-index: auto;
 }
@@ -67,11 +66,19 @@ body
 /*Header*/
 #header
 {
+    display: flex;
+    flex-direction: row;
     width: 100%;
     min-height: 10px;
     background-color: black;
     font-family: "BebasNeue";
     color: white;
+}
+
+#menuEIcono
+{
+    display: flex;
+    flex-direction: row;
 }
 
 #btn-menu
@@ -104,6 +111,7 @@ header label:hover
     background: rgba(0, 0, 0, 0.3);
 }
 
+/*/////////////////////////////////////////////////////////////////////////////*
 .menu ul
 {
     display: block;
@@ -116,7 +124,7 @@ header label:hover
     margin-bottom: 10px;
 }
 
-.menu li a
+.menu  li  a
 {
     display: block;
     font-family: sans-serif;
@@ -132,11 +140,88 @@ header label:hover
     color: white;
     background: rgba(0, 0, 0, 0.3);
 }
+/////////////////////////////////////////////////////////////////////////////*/
+.menu ul
+{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    text-decoration: none;
+    margin: 0px auto;
+    width: 1130px;
+}
+
+.menu > ul > li
+{
+    line-height: 40px;
+    float: left;
+    transition: all 300ms;
+}
+
+.menu > ul > li a
+{
+    display: block;
+    font-family: sans-serif;
+    padding: 15px 20px;
+    font-size: 20px;
+    color:rgb(119, 112, 112);
+    text-decoration: none;
+}
+
+.menu > ul > li:hover
+{
+    color: white;
+    background: rgba(0, 0, 0, 0.3);
+}
+
+/*Menu desplegable*/
+
+.menu > ul > li > ul
+{
+    display: none;
+    position: absolute;
+    text-align: left;
+    width: 160px;
+    box-shadow: 0px 2px 4px gray;
+    z-index: 2;
+}
+
+.menu > ul > li:hover > ul
+{
+    display: block;
+}
+
+.menu > ul > li:hover > ul > li
+{
+    background-color: #f2f1f0;
+    border-bottom: 1px solid #d6d6d6;
+    padding: 8px;
+    line-height: 25px;
+    font-size: 13px;
+    transition: all 300ms;
+}
+
+.menu > ul > li:hover > ul > li > a
+{
+    color: #666666;
+}
+
+.menu > ul > li:hover > ul > li:hover
+{
+    box-shadow: 0px 0px 6px #cccccc inset;
+}
+
 
 /*Logotipo*/
 #ancla
 {
     text-decoration: none;
+}
+
+#logo
+{
+    display: flex;
+    flex-direction: row;
 }
 
 #logoimg
@@ -148,41 +233,21 @@ header label:hover
     box-shadow: 6px 6px 2px gray;
 }
 
-#menu
+#infoTitulo
 {
-    width: 100%;
-    min-height: 70px;
+    padding-bottom: 30px;
 }
 
-#menu ul
+#titulo
 {
-    list-style: none;
-    height: 70px;
-    background: transparent;
-}
-#menu ul li
-{
-    float: left;
-    font-size: 22px;
-    line-height: 100px;
-    transition: all 300ms;
-}
-
-#menu ul li a
-{
-    text-decoration: none;
-    text-align: center;
-    font-family: "BebasNeue";
-    font-size: 28px;
-    padding: 10px;
+    display: block;
     color: white;
-    font-weight: 800;
-    transition: all 300ms;
-}
-#menu ul li a:hover
-{
-    color: #37bcf9;
-    font-size: 35px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;   
+    font-size: 40px;
+    text-shadow: 0px 0px 2px gray;
+    line-height: 300px;
+    
 }
 .card1
 {
@@ -190,6 +255,7 @@ header label:hover
     float: left;
     margin: 30px 20px 0px 50px;
     min-height: 500px;
+    box-shadow: 0px 1px 3px gray;
 }
 .cardImg
 {
@@ -273,8 +339,8 @@ header label:hover
 
 .logoG, .logoF
 {
-    display: block;
-    float: left;
+    display: flex;
+    flex-direction: row;
     color: blue;
     text-shadow: 0px 0px 4px gray;
     font-weight: 900;
@@ -295,48 +361,7 @@ h1
     font-size: 34px;
     margin-top: 23px;
 }
-/*
-//elimino el fondo
-#imagenPrin h1
-{
-    display: block;
-    background: url('../img/pxgray.png'), white;
-    height: 50px;
-    width: 35%;
-    letter-spacing: 3px;
-    text-align: center;
-    font-family: "BebasNeue";
-    font-size: 35px;
-    line-height: 55px;
-    color: blue;
-    border-radius: 5px;
-    margin-bottom: 15px;
-    margin-top: 0px;
-    margin-left: 15px;
-    text-shadow: 4px 2px 2px gray;
-    box-shadow: 2px 2px 2px gray;
-}
 
-#imagenPrin h2
-{
-    display: block;
-    background: url('../img/pxgray.png'), white;
-    height: 50px;
-    width: 35%;
-    letter-spacing: 3px;
-    text-align: center;
-    font-family: "BebasNeue";
-    font-size: 35px;
-    line-height: 55px;
-    color: blue;
-    border-radius: 5px;
-    margin-bottom: 15px;
-    margin-top: 20px;
-    margin-left: 15px;
-    text-shadow: 4px 2px 2px gray;
-    box-shadow: 2px 2px 2px gray;
-}
-*/
 #imagenPrin #redesSociales
 {
     display: block;
@@ -419,6 +444,85 @@ h1
 {
     color: white;
 }
+/*post*/
+#h4post
+{
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-left: 50px;
+    font-family: 'Open Sans',sans-serif;
+}
+#post
+{
+    width: 90%;
+    margin: 0 auto;
+}
+.article
+{
+    display: block;
+    float: left;
+    font-family: 'Montserrat', sans-serif;
+    text-align: justify;
+    letter-spacing: 1px;
+    width: 290px;
+    height: 520px;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 20px;
+    box-shadow: 0px 0px 5px gray;
+}
+.imagen
+{
+    width: 100%;
+    height: 290px;
+    border: 1px solid #fff;
+    overflow: hidden;
+    
+}
+.imagen img
+{
+    display: block;
+    /*width: 100%;*/
+    height: 290px;
+    margin: 0 auto;
+}
+
+.titulo
+{
+    width: 100%;
+    height: 50px;
+    border: 1px solid #fff;
+    text-align: left;
+    padding-left: 5px;
+    margin-bottom: 15px;
+}
+.leerMas
+{
+    width: 115px;
+    height: 36px;
+    border: 1px solid lightskyblue;
+    border-radius: 8px;
+    text-align: center;
+    line-height: 35px;
+    background-color: #007BFF;
+    margin-left: 20px;
+    margin-top: 100px;
+}
+
+.leerMas:hover
+{
+    box-shadow: 0px 0px 10px lightskyblue;
+}
+
+.leerMas a
+{
+    display: block;
+    width: 115px;
+    height: 36px;
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+}
 /*Cuerpo*/
 #cuerpo
 {
@@ -438,11 +542,30 @@ h1
 
 aside
 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     width: 100%;
-    height: 300px;
+    min-height: 300px;
     margin: 0px auto;
     margin-top: 50px;
     background-color: /*#EFDD51*/#030641;
+}
+
+.anuncio
+{
+    display: flex;
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+}
+#coPatrocinan
+{
+    display: block;
+    width: 100%;
+    margin: 20px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 /*Footer*/
@@ -513,9 +636,21 @@ footer .footercolum
     text-align: center;
 }
 
+footer .footercolum ul li
+{
+    list-style: none;
+    text-align: left;
+    margin-left: 172px;
+}
+
 footer .footercolum .menuFooter
 {
     color: white;
-    list-style: none;
-    text-decoration: none;
+    text-decoration: none; 
+}
+
+footer .footercolum .menuFooter:hover
+{
+    color: rgb(3, 3, 105);
+    text-decoration: none; 
 }
