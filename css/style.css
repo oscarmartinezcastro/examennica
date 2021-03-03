@@ -353,6 +353,12 @@ header label:hover
     overflow: hidden;
 }
 
+.imgBanner
+{
+    
+    /*height: 300px;*/
+}
+
 #banner img
 {
     width: 100%;
