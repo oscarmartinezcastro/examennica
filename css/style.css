@@ -79,6 +79,14 @@ body
 {
     display: flex;
     flex-direction: row;
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+
+html
+{
+    scroll-behavior: smooth;
 }
 
 #btn-menu
@@ -141,6 +149,8 @@ header label:hover
     background: rgba(0, 0, 0, 0.3);
 }
 /////////////////////////////////////////////////////////////////////////////*/
+
+
 .menu ul
 {
     display: flex;
